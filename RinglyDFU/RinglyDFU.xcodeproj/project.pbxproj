@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		432106401CB5818400117BE8 /* RinglyAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4321063F1CB5818400117BE8 /* RinglyAPI.framework */; };
+		435B1A281DCA943B00AEDF09 /* FirmwareFeaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B1A271DCA943B00AEDF09 /* FirmwareFeaturesTests.swift */; };
+		435B1A5A1DCA965100AEDF09 /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 437877721BB5D68A00878DD3 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		435B1A5B1DCA965100AEDF09 /* ReactiveRinglyKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43C8014C1CB5BD5300A0A1AD /* ReactiveRinglyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		435B1A5C1DCA965100AEDF09 /* Result.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 435B1A4B1DCA963600AEDF09 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		435B1A5D1DCA965100AEDF09 /* RinglyAPI.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4321063F1CB5818400117BE8 /* RinglyAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		435B1A5E1DCA965100AEDF09 /* RinglyExtensions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4378776C1BB5D67500878DD3 /* RinglyExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		435B1A5F1DCA965100AEDF09 /* RinglyKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4378776D1BB5D67500878DD3 /* RinglyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		435E3CAB1CB4657F0046F3D7 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E3CAA1CB4657F0046F3D7 /* Package.swift */; };
+		435E3CAD1CB466AB0046F3D7 /* PackageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E3CAC1CB466AB0046F3D7 /* PackageComponent.swift */; };
+		435E3CAF1CB468D80046F3D7 /* Unzip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E3CAE1CB468D80046F3D7 /* Unzip.swift */; };
+		435E3CB21CB46CDF0046F3D7 /* DFUController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E3CB11CB46CDF0046F3D7 /* DFUController.swift */; };
+		435E3CB41CB46E240046F3D7 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E3CB31CB46E240046F3D7 /* State.swift */; };
+		435E3CB61CB472220046F3D7 /* UIDevice+BatteryProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E3CB51CB472220046F3D7 /* UIDevice+BatteryProducer.swift */; };
+		435E3CB81CB5464A0046F3D7 /* DFUControllerMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435E3CB71CB5464A0046F3D7 /* DFUControllerMode.swift */; };
+		436E27EB1CB8382700D4663C /* DFULogFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E27EA1CB8382700D4663C /* DFULogFunction.swift */; };
+		436E27ED1CB83AE000D4663C /* CBPeripheral+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E27EC1CB83AE000D4663C /* CBPeripheral+Logging.swift */; };
+		436E27EF1CB8427D00D4663C /* WriteProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E27EE1CB8427D00D4663C /* WriteProgress.swift */; };
+		437578A31CBED0EC00243662 /* RLYCentral+Reconnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437578A21CBED0EC00243662 /* RLYCentral+Reconnect.swift */; };
+		437877641BB5D61C00878DD3 /* RinglyDFU.h in Headers */ = {isa = PBXBuildFile; fileRef = 437877631BB5D61C00878DD3 /* RinglyDFU.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4378776F1BB5D67500878DD3 /* RinglyExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4378776C1BB5D67500878DD3 /* RinglyExtensions.framework */; };
+		437877701BB5D67500878DD3 /* RinglyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4378776D1BB5D67500878DD3 /* RinglyKit.framework */; };
+		437877741BB5D68A00878DD3 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437877721BB5D68A00878DD3 /* ReactiveCocoa.framework */; };
+		4378778A1BB5D6E400878DD3 /* DFUError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378777E1BB5D6E400878DD3 /* DFUError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4378778B1BB5D6E400878DD3 /* DFUError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378777F1BB5D6E400878DD3 /* DFUError.m */; };
+		43BEE6621CC97B22003F245F /* DFUTimeoutError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEE6611CC97B22003F245F /* DFUTimeoutError.swift */; };
+		43C8013A1CB585BD00A0A1AD /* PackageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801391CB585BD00A0A1AD /* PackageSource.swift */; };
+		43C8013D1CB598D300A0A1AD /* UIDeviceBatteryState+Charging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013C1CB598D300A0A1AD /* UIDeviceBatteryState+Charging.swift */; };
+		43C801401CB5A09F00A0A1AD /* Writer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C8013F1CB5A09F00A0A1AD /* Writer.swift */; };
+		43C801421CB5A25800A0A1AD /* WriterNotificationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801411CB5A25800A0A1AD /* WriterNotificationMode.swift */; };
+		43C801441CB5A5D500A0A1AD /* WriterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801431CB5A5D500A0A1AD /* WriterError.swift */; };
+		43C801461CB5B34A00A0A1AD /* FirmwareFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801451CB5B34A00A0A1AD /* FirmwareFeatures.swift */; };
+		43C801481CB5B4DE00A0A1AD /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C801471CB5B4DE00A0A1AD /* Scanner.swift */; };
+		43C8014D1CB5BD5300A0A1AD /* ReactiveRinglyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C8014C1CB5BD5300A0A1AD /* ReactiveRinglyKit.framework */; };
+		43DDD9FA1CB6C42100A9C108 /* SignalProducer+Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDD9F91CB6C42100A9C108 /* SignalProducer+Inject.swift */; };
+		43DDD9FD1CB6C9DD00A9C108 /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDD9FC1CB6C9DD00A9C108 /* Sender.swift */; };
+		43DDDA011CB6CC7000A9C108 /* WriteSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDDA001CB6CC7000A9C108 /* WriteSender.swift */; };
+		43DDDA031CB6CC8B00A9C108 /* ForgetThisDeviceSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDDA021CB6CC8B00A9C108 /* ForgetThisDeviceSender.swift */; };
+		43DDDA051CB6D62B00A9C108 /* CBCentralManager+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDDA041CB6D62B00A9C108 /* CBCentralManager+State.swift */; };
+		43DDDA071CB6E03800A9C108 /* DFUControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDDA061CB6E03800A9C108 /* DFUControllerDelegate.swift */; };
+		43DDDA091CB6ED8000A9C108 /* RLYPeripheral+Versions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDDA081CB6ED8000A9C108 /* RLYPeripheral+Versions.swift */; };
+		43DDDA0B1CB6EDAB00A9C108 /* String+Versions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDDA0A1CB6EDAB00A9C108 /* String+Versions.swift */; };
+		43DDDA0D1CB7035500A9C108 /* RLYCentral+RepeatedlyWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDDA0C1CB7035500A9C108 /* RLYCentral+RepeatedlyWrite.swift */; };
+		43DDDA121CB7E66A00A9C108 /* ActivityReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDDA111CB7E66A00A9C108 /* ActivityReason.swift */; };
+		43DDDA1E1CB7F57F00A9C108 /* PhoneInChargerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DDDA1D1CB7F57F00A9C108 /* PhoneInChargerState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		435B1A221DCA942000AEDF09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437877571BB5D61C00878DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4378775F1BB5D61C00878DD3;
+			remoteInfo = RinglyDFU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		435B1A291DCA954300AEDF09 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				435B1A5A1DCA965100AEDF09 /* ReactiveCocoa.framework in CopyFiles */,
+				435B1A5B1DCA965100AEDF09 /* ReactiveRinglyKit.framework in CopyFiles */,
+				435B1A5C1DCA965100AEDF09 /* Result.framework in CopyFiles */,
+				435B1A5D1DCA965100AEDF09 /* RinglyAPI.framework in CopyFiles */,
+				435B1A5E1DCA965100AEDF09 /* RinglyExtensions.framework in CopyFiles */,
+				435B1A5F1DCA965100AEDF09 /* RinglyKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4321063F1CB5818400117BE8 /* RinglyAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RinglyAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		435B1A1C1DCA942000AEDF09 /* RinglyDFUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RinglyDFUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		435B1A201DCA942000AEDF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435B1A271DCA943B00AEDF09 /* FirmwareFeaturesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirmwareFeaturesTests.swift; sourceTree = "<group>"; };
+		435B1A4B1DCA963600AEDF09 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = ../Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		435E3CAA1CB4657F0046F3D7 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		435E3CAC1CB466AB0046F3D7 /* PackageComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageComponent.swift; sourceTree = "<group>"; };
+		435E3CAE1CB468D80046F3D7 /* Unzip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unzip.swift; sourceTree = "<group>"; };
+		435E3CB11CB46CDF0046F3D7 /* DFUController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUController.swift; sourceTree = "<group>"; };
+		435E3CB31CB46E240046F3D7 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		435E3CB51CB472220046F3D7 /* UIDevice+BatteryProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+BatteryProducer.swift"; sourceTree = "<group>"; };
+		435E3CB71CB5464A0046F3D7 /* DFUControllerMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUControllerMode.swift; sourceTree = "<group>"; };
+		436E27EA1CB8382700D4663C /* DFULogFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFULogFunction.swift; sourceTree = "<group>"; };
+		436E27EC1CB83AE000D4663C /* CBPeripheral+Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBPeripheral+Logging.swift"; sourceTree = "<group>"; };
+		436E27EE1CB8427D00D4663C /* WriteProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteProgress.swift; sourceTree = "<group>"; };
+		437578A21CBED0EC00243662 /* RLYCentral+Reconnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RLYCentral+Reconnect.swift"; sourceTree = "<group>"; };
+		437877601BB5D61C00878DD3 /* RinglyDFU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RinglyDFU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		437877631BB5D61C00878DD3 /* RinglyDFU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RinglyDFU.h; sourceTree = "<group>"; };
+		437877651BB5D61C00878DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4378776C1BB5D67500878DD3 /* RinglyExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RinglyExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4378776D1BB5D67500878DD3 /* RinglyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RinglyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		437877721BB5D68A00878DD3 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = ../Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		4378777E1BB5D6E400878DD3 /* DFUError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFUError.h; sourceTree = "<group>"; };
+		4378777F1BB5D6E400878DD3 /* DFUError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFUError.m; sourceTree = "<group>"; };
+		43BEE6611CC97B22003F245F /* DFUTimeoutError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUTimeoutError.swift; sourceTree = "<group>"; };
+		43C801391CB585BD00A0A1AD /* PackageSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageSource.swift; sourceTree = "<group>"; };
+		43C8013C1CB598D300A0A1AD /* UIDeviceBatteryState+Charging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDeviceBatteryState+Charging.swift"; sourceTree = "<group>"; };
+		43C8013F1CB5A09F00A0A1AD /* Writer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Writer.swift; sourceTree = "<group>"; };
+		43C801411CB5A25800A0A1AD /* WriterNotificationMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriterNotificationMode.swift; sourceTree = "<group>"; };
+		43C801431CB5A5D500A0A1AD /* WriterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriterError.swift; sourceTree = "<group>"; };
+		43C801451CB5B34A00A0A1AD /* FirmwareFeatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirmwareFeatures.swift; sourceTree = "<group>"; };
+		43C801471CB5B4DE00A0A1AD /* Scanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Scanner.swift; path = RinglyDFU/Scanner.swift; sourceTree = "<group>"; };
+		43C8014C1CB5BD5300A0A1AD /* ReactiveRinglyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveRinglyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43DDD9F91CB6C42100A9C108 /* SignalProducer+Inject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignalProducer+Inject.swift"; sourceTree = "<group>"; };
+		43DDD9FC1CB6C9DD00A9C108 /* Sender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
+		43DDDA001CB6CC7000A9C108 /* WriteSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteSender.swift; sourceTree = "<group>"; };
+		43DDDA021CB6CC8B00A9C108 /* ForgetThisDeviceSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetThisDeviceSender.swift; sourceTree = "<group>"; };
+		43DDDA041CB6D62B00A9C108 /* CBCentralManager+State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBCentralManager+State.swift"; sourceTree = "<group>"; };
+		43DDDA061CB6E03800A9C108 /* DFUControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFUControllerDelegate.swift; sourceTree = "<group>"; };
+		43DDDA081CB6ED8000A9C108 /* RLYPeripheral+Versions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RLYPeripheral+Versions.swift"; sourceTree = "<group>"; };
+		43DDDA0A1CB6EDAB00A9C108 /* String+Versions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Versions.swift"; sourceTree = "<group>"; };
+		43DDDA0C1CB7035500A9C108 /* RLYCentral+RepeatedlyWrite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RLYCentral+RepeatedlyWrite.swift"; sourceTree = "<group>"; };
+		43DDDA111CB7E66A00A9C108 /* ActivityReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityReason.swift; sourceTree = "<group>"; };
+		43DDDA1D1CB7F57F00A9C108 /* PhoneInChargerState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneInChargerState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435B1A191DCA942000AEDF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378775C1BB5D61C00878DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C8014D1CB5BD5300A0A1AD /* ReactiveRinglyKit.framework in Frameworks */,
+				432106401CB5818400117BE8 /* RinglyAPI.framework in Frameworks */,
+				4378776F1BB5D67500878DD3 /* RinglyExtensions.framework in Frameworks */,
+				437877701BB5D67500878DD3 /* RinglyKit.framework in Frameworks */,
+				437877741BB5D68A00878DD3 /* ReactiveCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435B1A1D1DCA942000AEDF09 /* RinglyDFUTests */ = {
+			isa = PBXGroup;
+			children = (
+				435B1A271DCA943B00AEDF09 /* FirmwareFeaturesTests.swift */,
+				435B1A201DCA942000AEDF09 /* Info.plist */,
+			);
+			path = RinglyDFUTests;
+			sourceTree = "<group>";
+		};
+		435E3CA91CB465750046F3D7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				435E3CAA1CB4657F0046F3D7 /* Package.swift */,
+				435E3CAC1CB466AB0046F3D7 /* PackageComponent.swift */,
+				43C801391CB585BD00A0A1AD /* PackageSource.swift */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		435E3CB01CB46CCB0046F3D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				435E3CB11CB46CDF0046F3D7 /* DFUController.swift */,
+				43DDDA061CB6E03800A9C108 /* DFUControllerDelegate.swift */,
+				435E3CB71CB5464A0046F3D7 /* DFUControllerMode.swift */,
+				43C801451CB5B34A00A0A1AD /* FirmwareFeatures.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		437877561BB5D61C00878DD3 = {
+			isa = PBXGroup;
+			children = (
+				437877621BB5D61C00878DD3 /* RinglyDFU */,
+				435B1A1D1DCA942000AEDF09 /* RinglyDFUTests */,
+				437877751BB5D6C000878DD3 /* Frameworks */,
+				437877611BB5D61C00878DD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		437877611BB5D61C00878DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437877601BB5D61C00878DD3 /* RinglyDFU.framework */,
+				435B1A1C1DCA942000AEDF09 /* RinglyDFUTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437877621BB5D61C00878DD3 /* RinglyDFU */ = {
+			isa = PBXGroup;
+			children = (
+				437877631BB5D61C00878DD3 /* RinglyDFU.h */,
+				435E3CB01CB46CCB0046F3D7 /* Controller */,
+				43DDDA101CB7E60000A9C108 /* State */,
+				43C8013B1CB598BD00A0A1AD /* Extensions */,
+				435E3CA91CB465750046F3D7 /* Packages */,
+				43C801491CB5B58900A0A1AD /* Scanner */,
+				43DDD9FB1CB6C9D400A9C108 /* Sending to Bootloader */,
+				43C8013E1CB5A09300A0A1AD /* Writer */,
+				4378777E1BB5D6E400878DD3 /* DFUError.h */,
+				4378777F1BB5D6E400878DD3 /* DFUError.m */,
+				43BEE6611CC97B22003F245F /* DFUTimeoutError.swift */,
+				436E27EA1CB8382700D4663C /* DFULogFunction.swift */,
+				437877651BB5D61C00878DD3 /* Info.plist */,
+			);
+			path = RinglyDFU;
+			sourceTree = "<group>";
+		};
+		437877751BB5D6C000878DD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				437877721BB5D68A00878DD3 /* ReactiveCocoa.framework */,
+				43C8014C1CB5BD5300A0A1AD /* ReactiveRinglyKit.framework */,
+				435B1A4B1DCA963600AEDF09 /* Result.framework */,
+				4321063F1CB5818400117BE8 /* RinglyAPI.framework */,
+				4378776C1BB5D67500878DD3 /* RinglyExtensions.framework */,
+				4378776D1BB5D67500878DD3 /* RinglyKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43C8013B1CB598BD00A0A1AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				43DDDA041CB6D62B00A9C108 /* CBCentralManager+State.swift */,
+				43DDDA081CB6ED8000A9C108 /* RLYPeripheral+Versions.swift */,
+				43DDD9F91CB6C42100A9C108 /* SignalProducer+Inject.swift */,
+				43DDDA0A1CB6EDAB00A9C108 /* String+Versions.swift */,
+				435E3CB51CB472220046F3D7 /* UIDevice+BatteryProducer.swift */,
+				43C8013C1CB598D300A0A1AD /* UIDeviceBatteryState+Charging.swift */,
+				435E3CAE1CB468D80046F3D7 /* Unzip.swift */,
+				436E27EC1CB83AE000D4663C /* CBPeripheral+Logging.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		43C8013E1CB5A09300A0A1AD /* Writer */ = {
+			isa = PBXGroup;
+			children = (
+				43C8013F1CB5A09F00A0A1AD /* Writer.swift */,
+				43C801411CB5A25800A0A1AD /* WriterNotificationMode.swift */,
+				43C801431CB5A5D500A0A1AD /* WriterError.swift */,
+			);
+			name = Writer;
+			sourceTree = "<group>";
+		};
+		43C801491CB5B58900A0A1AD /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				43C801471CB5B4DE00A0A1AD /* Scanner.swift */,
+			);
+			name = Scanner;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		43DDD9FB1CB6C9D400A9C108 /* Sending to Bootloader */ = {
+			isa = PBXGroup;
+			children = (
+				43DDD9FC1CB6C9DD00A9C108 /* Sender.swift */,
+				43DDDA021CB6CC8B00A9C108 /* ForgetThisDeviceSender.swift */,
+				43DDDA001CB6CC7000A9C108 /* WriteSender.swift */,
+				437578A21CBED0EC00243662 /* RLYCentral+Reconnect.swift */,
+				43DDDA0C1CB7035500A9C108 /* RLYCentral+RepeatedlyWrite.swift */,
+			);
+			name = "Sending to Bootloader";
+			sourceTree = "<group>";
+		};
+		43DDDA101CB7E60000A9C108 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				43DDDA111CB7E66A00A9C108 /* ActivityReason.swift */,
+				43DDDA1D1CB7F57F00A9C108 /* PhoneInChargerState.swift */,
+				435E3CB31CB46E240046F3D7 /* State.swift */,
+				436E27EE1CB8427D00D4663C /* WriteProgress.swift */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4378775D1BB5D61C00878DD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437877641BB5D61C00878DD3 /* RinglyDFU.h in Headers */,
+				4378778A1BB5D6E400878DD3 /* DFUError.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		435B1A1B1DCA942000AEDF09 /* RinglyDFUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435B1A261DCA942000AEDF09 /* Build configuration list for PBXNativeTarget "RinglyDFUTests" */;
+			buildPhases = (
+				435B1A181DCA942000AEDF09 /* Sources */,
+				435B1A191DCA942000AEDF09 /* Frameworks */,
+				435B1A1A1DCA942000AEDF09 /* Resources */,
+				435B1A291DCA954300AEDF09 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435B1A231DCA942000AEDF09 /* PBXTargetDependency */,
+			);
+			name = RinglyDFUTests;
+			productName = RinglyDFUTests;
+			productReference = 435B1A1C1DCA942000AEDF09 /* RinglyDFUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4378775F1BB5D61C00878DD3 /* RinglyDFU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437877681BB5D61C00878DD3 /* Build configuration list for PBXNativeTarget "RinglyDFU" */;
+			buildPhases = (
+				4378775B1BB5D61C00878DD3 /* Sources */,
+				4378775C1BB5D61C00878DD3 /* Frameworks */,
+				4378775D1BB5D61C00878DD3 /* Headers */,
+				4378775E1BB5D61C00878DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RinglyDFU;
+			productName = RinglyDFU;
+			productReference = 437877601BB5D61C00878DD3 /* RinglyDFU.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		437877571BB5D61C00878DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Ringly;
+				TargetAttributes = {
+					435B1A1B1DCA942000AEDF09 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P97VTTKZ62;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					4378775F1BB5D61C00878DD3 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = P97VTTKZ62;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 4378775A1BB5D61C00878DD3 /* Build configuration list for PBXProject "RinglyDFU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 437877561BB5D61C00878DD3;
+			productRefGroup = 437877611BB5D61C00878DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4378775F1BB5D61C00878DD3 /* RinglyDFU */,
+				435B1A1B1DCA942000AEDF09 /* RinglyDFUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		435B1A1A1DCA942000AEDF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378775E1BB5D61C00878DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435B1A181DCA942000AEDF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435B1A281DCA943B00AEDF09 /* FirmwareFeaturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378775B1BB5D61C00878DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DDD9FD1CB6C9DD00A9C108 /* Sender.swift in Sources */,
+				437578A31CBED0EC00243662 /* RLYCentral+Reconnect.swift in Sources */,
+				43C801481CB5B4DE00A0A1AD /* Scanner.swift in Sources */,
+				435E3CB41CB46E240046F3D7 /* State.swift in Sources */,
+				435E3CB21CB46CDF0046F3D7 /* DFUController.swift in Sources */,
+				436E27ED1CB83AE000D4663C /* CBPeripheral+Logging.swift in Sources */,
+				43C801421CB5A25800A0A1AD /* WriterNotificationMode.swift in Sources */,
+				4378778B1BB5D6E400878DD3 /* DFUError.m in Sources */,
+				43DDDA011CB6CC7000A9C108 /* WriteSender.swift in Sources */,
+				435E3CAD1CB466AB0046F3D7 /* PackageComponent.swift in Sources */,
+				43DDDA0B1CB6EDAB00A9C108 /* String+Versions.swift in Sources */,
+				43DDDA031CB6CC8B00A9C108 /* ForgetThisDeviceSender.swift in Sources */,
+				43DDDA051CB6D62B00A9C108 /* CBCentralManager+State.swift in Sources */,
+				43C8013A1CB585BD00A0A1AD /* PackageSource.swift in Sources */,
+				436E27EF1CB8427D00D4663C /* WriteProgress.swift in Sources */,
+				435E3CB81CB5464A0046F3D7 /* DFUControllerMode.swift in Sources */,
+				43C801401CB5A09F00A0A1AD /* Writer.swift in Sources */,
+				43DDDA071CB6E03800A9C108 /* DFUControllerDelegate.swift in Sources */,
+				43C8013D1CB598D300A0A1AD /* UIDeviceBatteryState+Charging.swift in Sources */,
+				43C801441CB5A5D500A0A1AD /* WriterError.swift in Sources */,
+				435E3CAF1CB468D80046F3D7 /* Unzip.swift in Sources */,
+				43BEE6621CC97B22003F245F /* DFUTimeoutError.swift in Sources */,
+				435E3CB61CB472220046F3D7 /* UIDevice+BatteryProducer.swift in Sources */,
+				43DDDA0D1CB7035500A9C108 /* RLYCentral+RepeatedlyWrite.swift in Sources */,
+				435E3CAB1CB4657F0046F3D7 /* Package.swift in Sources */,
+				43C801461CB5B34A00A0A1AD /* FirmwareFeatures.swift in Sources */,
+				43DDDA121CB7E66A00A9C108 /* ActivityReason.swift in Sources */,
+				43DDD9FA1CB6C42100A9C108 /* SignalProducer+Inject.swift in Sources */,
+				436E27EB1CB8382700D4663C /* DFULogFunction.swift in Sources */,
+				43DDDA091CB6ED8000A9C108 /* RLYPeripheral+Versions.swift in Sources */,
+				43DDDA1E1CB7F57F00A9C108 /* PhoneInChargerState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		435B1A231DCA942000AEDF09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4378775F1BB5D61C00878DD3 /* RinglyDFU */;
+			targetProxy = 435B1A221DCA942000AEDF09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		435B1A241DCA942000AEDF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = P97VTTKZ62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(SRCROOT)/../Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RinglyDFUTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringly.RinglyDFUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		435B1A251DCA942000AEDF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = P97VTTKZ62;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(SRCROOT)/../Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RinglyDFUTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringly.RinglyDFUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		437877661BB5D61C00878DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		437877671BB5D61C00878DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		437877691BB5D61C00878DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P97VTTKZ62;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../Carthage/Build/iOS",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RinglyDFU/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringly.RinglyDFU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4378776A1BB5D61C00878DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P97VTTKZ62;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../Carthage/Build/iOS",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RinglyDFU/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringly.RinglyDFU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435B1A261DCA942000AEDF09 /* Build configuration list for PBXNativeTarget "RinglyDFUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435B1A241DCA942000AEDF09 /* Debug */,
+				435B1A251DCA942000AEDF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4378775A1BB5D61C00878DD3 /* Build configuration list for PBXProject "RinglyDFU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437877661BB5D61C00878DD3 /* Debug */,
+				437877671BB5D61C00878DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437877681BB5D61C00878DD3 /* Build configuration list for PBXNativeTarget "RinglyDFU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437877691BB5D61C00878DD3 /* Debug */,
+				4378776A1BB5D61C00878DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 437877571BB5D61C00878DD3 /* Project object */;
+}

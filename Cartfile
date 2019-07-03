@@ -1,0 +1,9 @@
+github "bitstadium/HockeySDK-iOS" ~> 4.0
+github "mixpanel/mixpanel-iphone" ~> 3.0
+github "ReactiveCocoa/ReactiveCocoa" ~> 5.0
+github "realm/realm-cocoa" ~> 2.1
+github "ringly/PureLayout" "feature/add-swift-names"
+github "ringly/DOHexKeyboard" "xcodeproj"
+github "ringly/UACarthageBridge" "master"
+github "pinterest/PINRemoteImage"
+github "delannoyk/AudioPlayer"

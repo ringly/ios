@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Ringly/Ringly.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RinglyKit/RinglyKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ReactiveRinglyKit/ReactiveRinglyKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RinglyActivityTracking/RinglyActivityTracking.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RinglyExtensions/RinglyExtensions.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RinglyAPI/RinglyAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RinglyDFU/RinglyDFU.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IOS-DFU-Library/DFULibrary.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TestPeripheral/TestPeripheral.xcodeproj">
+   </FileRef>
+</Workspace>

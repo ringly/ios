@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0800"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "430F2BCB1BA88AFE00073E5A"
+               BuildableName = "NordicDFU.framework"
+               BlueprintName = "NordicDFU"
+               ReferencedContainer = "container:NordicDFU/NordicDFU.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4321D5781BAA1CDB000C4A68"
+               BuildableName = "ReactiveRinglyKit.framework"
+               BlueprintName = "ReactiveRinglyKit"
+               ReferencedContainer = "container:ReactiveRinglyKit/ReactiveRinglyKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "430F2CB41BA8B13100073E5A"
+               BuildableName = "RinglyExtensions.framework"
+               BlueprintName = "RinglyExtensions"
+               ReferencedContainer = "container:RinglyExtensions/RinglyExtensions.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4378B4301B56BB8E00B175DE"
+               BuildableName = "RinglyKit.framework"
+               BlueprintName = "RinglyKit"
+               ReferencedContainer = "container:RinglyKit/RinglyKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "430F2C2C1BA8A0F500073E5A"
+               BuildableName = "RinglyViews.framework"
+               BlueprintName = "RinglyViews"
+               ReferencedContainer = "container:RinglyViews/RinglyViews.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "43A0C7A01CD3B96F00BD763C"
+               BuildableName = "RinglyActivityTrackingTests.xctest"
+               BlueprintName = "RinglyActivityTrackingTests"
+               ReferencedContainer = "container:RinglyActivityTracking/RinglyActivityTracking.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4321D5821BAA1CDB000C4A68"
+               BuildableName = "ReactiveRinglyKitTests.xctest"
+               BlueprintName = "ReactiveRinglyKitTests"
+               ReferencedContainer = "container:ReactiveRinglyKit/ReactiveRinglyKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "430F2CBE1BA8B13100073E5A"
+               BuildableName = "RinglyExtensionsTests.xctest"
+               BlueprintName = "RinglyExtensionsTests"
+               ReferencedContainer = "container:RinglyExtensions/RinglyExtensions.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4378B43B1B56BB8E00B175DE"
+               BuildableName = "RinglyKitTests.xctest"
+               BlueprintName = "RinglyKitTests"
+               ReferencedContainer = "container:RinglyKit/RinglyKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "436E28061CB84D7700D4663C"
+               BuildableName = "RinglyAPITests.xctest"
+               BlueprintName = "RinglyAPITests"
+               ReferencedContainer = "container:RinglyAPI/RinglyAPI.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "439DD5041AB0F8D500B73103"
+               BuildableName = "RinglyTests.xctest"
+               BlueprintName = "RinglyTests"
+               ReferencedContainer = "container:Ringly/Ringly.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "43A0C7A01CD3B96F00BD763C"
+               BuildableName = "RinglyActivityTrackingTests.xctest"
+               BlueprintName = "RinglyActivityTrackingTests"
+               ReferencedContainer = "container:RinglyActivityTracking/RinglyActivityTracking.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "52C12B671C6B8B28004D9DB8"
+               BuildableName = "DFULibraryTests.xctest"
+               BlueprintName = "DFULibraryTests"
+               ReferencedContainer = "container:IOS-DFU-Library/DFULibrary.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "435B1A1B1DCA942000AEDF09"
+               BuildableName = "RinglyDFUTests.xctest"
+               BlueprintName = "RinglyDFUTests"
+               ReferencedContainer = "container:RinglyDFU/RinglyDFU.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "430F2BCB1BA88AFE00073E5A"
+            BuildableName = "NordicDFU.framework"
+            BlueprintName = "NordicDFU"
+            ReferencedContainer = "container:NordicDFU/NordicDFU.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "430F2BCB1BA88AFE00073E5A"
+            BuildableName = "NordicDFU.framework"
+            BlueprintName = "NordicDFU"
+            ReferencedContainer = "container:NordicDFU/NordicDFU.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "430F2BCB1BA88AFE00073E5A"
+            BuildableName = "NordicDFU.framework"
+            BlueprintName = "NordicDFU"
+            ReferencedContainer = "container:NordicDFU/NordicDFU.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

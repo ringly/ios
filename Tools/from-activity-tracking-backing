@@ -1,0 +1,23 @@
+#!/usr/bin/env swift
+
+// a tool to quickly print the values of activity tracking entries in a Realm database
+// Realm doesn't support unsigned integers, so we have to work around this by using an
+// eight-bit signed and reinterpreting back and forth.
+
+// For values up to 127, this effectively just prints the number, as their
+// representation is the same in both signed and unsigned form. For negative values,
+// this effective calculates is `256 + value` (note that value is negative), so a
+// value of -1 indicates 255, -2 indicates 254, up to -128 indicating 128.
+
+for argument in Process.arguments.dropFirst()
+{
+    if let source = Int8(argument)
+    {
+        print(source, "->", UInt8(bitPattern: source))
+    }
+    else
+    {
+        print("“\(argument)” is invalid")
+    }
+}
+

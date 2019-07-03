@@ -1,0 +1,99 @@
+# Customise this file, documentation can be found here:
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+# All available actions: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Actions.md
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "1.111.0"
+
+default_platform :ios
+
+platform :ios do
+  before_all do
+    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+
+
+    carthage(
+      command: "bootstrap",
+      platform: "iOS",
+      cache_builds: true,
+      use_binaries: false
+    )
+   end
+
+  desc "Runs all the tests"
+  lane :test do
+    scan
+  end
+
+  lane :alpha do
+  	gym(
+  		configuration: 'Nightly',
+  		scheme: 'Ringly',
+  		export_method: 'ad-hoc'
+  		)
+
+  	 ENV["BUILD_NUMBER"] = "301"
+
+  	 sh "#{ENV['PWD']}/Tools/appicons.sh"
+
+    hockey(
+  	  api_token: "YOUR-TOKEN-HERE",
+  	  create_update: true,
+  	  public_identifier: "743e9e1d75f173253faf6276b6ce950e",
+  	  status:"2",
+  	  notify:"0",
+  	  mandatory:"0",
+  	  notes_type: "1",
+  	  ipa: "Ringly.ipa",
+  	  dsym: "Ringly.app.dSYM.zip",
+  	  notes: "Changelog"
+	  )
+  end
+
+  desc "Submit a new Beta Build to Apple TestFlight"
+  desc "This will also make sure the profile is up to date"
+  lane :beta do
+    gym(
+      configuration: 'Release',
+      scheme: 'Ringly',
+      export_method: 'app-store'
+    )
+
+    pilot(team_name: "Ringly Inc.", skip_waiting_for_build_processing: true )
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here (run `fastlane actions`)
+  end
+
+
+
+  after_all do |lane|
+    # This block is called, only if the executed lane was successful
+
+    # slack(
+    #   message: "Successfully deployed new App Update."
+    # )
+  end
+
+  error do |lane, exception|
+    # slack(
+    #   message: exception.message,
+    #   success: false
+    # )
+  end
+end
+
+
+# More information about multiple platforms in fastlane: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Platforms.md
+# All available actions: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Actions.md
+
+# fastlane reports which actions are used
+# No personal data is recorded. Learn more at https://github.com/fastlane/enhancer

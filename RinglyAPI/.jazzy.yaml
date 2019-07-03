@@ -1,0 +1,73 @@
+custom_categories:
+    - name: API
+      children:
+          - APIServer
+          - APIService
+          - APIServiceAuthenticationStorage
+
+    - name: Authentication
+      children:
+          - Authentication
+          - User
+          
+    - name: Coding
+      children:
+          - Coding
+          - Decoding
+          - DecodeAnyError
+          - Dictionary
+          - Encoding
+         
+    - name: Password Reset
+      children:
+          - ResetToken
+          - ResetTokenRequestRequest
+          - PasswordResetRequest
+
+    - name: Peripheral Registration
+      children:
+          - PeripheralRegistrationRequest
+
+    - name: Analytics
+      children:
+          - AppEventsRequest
+          
+    - name: Diagnostic Data
+      children:
+          - DiagnosticDataRequest
+
+    - name: Firmware
+      children:
+          - Firmware
+          - FirmwareRequest
+          - FirmwareResult
+
+    - name: Generic Request Types
+      children:
+          - RequestMethod
+          - RequestProviding
+          - ResponseProcessing
+          - RESTModel
+          - RESTGetRequest
+          - RESTPatchRequest
+    
+    - name: Multipart Data
+      children:
+          - MultipartField
+          - MultipartFile
+          
+    - name: Reviews
+      children:
+          - ReviewRequest
+
+    - name: Errors
+      children:
+          - APIServerInvalidCustomError
+          - APIServerInvalidEncodedTypeError
+          - APIServerInvalidIntegerError
+          - APIServiceError
+          - DecodeError
+
+    - name: Logging
+      children:
+          - APILogFunction

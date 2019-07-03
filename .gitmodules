@@ -1,0 +1,6 @@
+[submodule "IOS-DFU-Library"]
+	path = IOS-DFU-Library
+	url = https://github.com/ringly/IOS-DFU-Library.git
+[submodule "RinglyAPI/Godzippa"]
+	path = RinglyAPI/Godzippa
+	url = https://github.com/ringly/Godzippa.git

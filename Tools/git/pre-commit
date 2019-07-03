@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+CURRENT=`git rev-parse --abbrev-ref HEAD`
+
+if [[ "$CURRENT" == "experimental" ]]; then
+	echo "Don't commit directly to \"$CURRENT\". Use a working branch, then reset \"$CURRENT\" to the commit you'd like to deploy."
+	exit 1
+fi
+
+exit 0

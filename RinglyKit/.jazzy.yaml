@@ -1,0 +1,173 @@
+custom_categories:
+    - name: Centrals
+      children:
+          - RLYCentral
+          - RLYCentralDiscovery
+          - RLYCentralObserver
+
+    - name: Peripherals
+      children:
+          - RLYPeripheral
+          - RLYPeripheralActivityTracking
+          - RLYPeripheralANCSNotificationModeInformation
+          - RLYPeripheralBatteryInformation
+          - RLYPeripheralConfigurationHashing
+          - RLYPeripheralConnectionInformation
+          - RLYPeripheralDeviceInformation
+          - RLYPeripheralObservation
+          - RLYPeripheralReading
+          - RLYPeripheralValidation
+          - RLYPeripheralWriting
+          - RLYPeripheralObserver
+          - RLYRecoveryPeripheral
+
+    - name: Peripheral Attributes
+      children:
+          - RLYPeripheralBand
+          - RLYPeripheralBandFromStyle
+          - RLYPeripheralBandName
+          - RLYPeripheralShortNameFromName
+          - RLYPeripheralStone
+          - RLYPeripheralStoneFromStyle
+          - RLYPeripheralStoneName
+          - RLYPeripheralStyle
+          - RLYPeripheralStyleFromShortName
+          - RLYPeripheralStyleName
+          - RLYPeripheralStyleToShortName
+          - RLYPeripheralType
+          - RLYPeripheralTypeFromStyle
+          - RLYPeripheralTypeName
+
+    - name: Peripheral State
+      children:
+          - RLYPeripheralBatteryState
+          - RLYPeripheralBatteryStateToString
+          - RLYPeripheralFeatureSupport
+          - RLYPeripheralPairState
+          - RLYPeripheralPairStateIsPaired
+          - RLYPeripheralPairStateToString
+          - RLYPeripheralShutdownReason
+          - RLYPeripheralValidationState
+
+    - name: Activity Tracking Dates
+      children:
+          - RLYActivityTrackingDate
+          - RLYActivityTrackingMinute
+          - RLYActivityTrackingMinuteMin
+          - RLYActivityTrackingMinuteMax
+          - RLYActivityTrackingMinuteToTimestamp
+          - RLYActivityTrackingMinuteToNSDate
+          - RLYActivityTrackingDateReferenceTimestamp
+          - RLYActivityTrackingMinuteBytes
+          - RLYActivityTrackingMinuteBytesMake
+          - RLYActivityTrackingMinuteBytesFromMinute
+          - RLYActivityTrackingMinuteBytesToMinute
+          - RLYActivityTrackingDateErrorDomain
+          - RLYActivityTrackingDateErrorCode
+          - RLYActivityTrackingDateInvalidIntervalKey
+          - RLYActivityTrackingDateInvalidTimestampKey
+
+    - name: Activity Tracking Settings
+      children:
+          - RLYActivityTrackingSensitivity
+          - RLYActivityTrackingMode
+
+    - name: Activity Tracking Updates
+      children:
+          - RLYActivityTrackingUpdate
+          - RLYActivityTrackingUpdateErrorDomain
+          - RLYActivityTrackingUpdateErrorCode
+          - RLYActivityTrackingUpdateInvalidDataErrorKey
+          - RLYActivityTrackingSteps
+
+    - name: Commands
+      children:
+          - RLYCommand
+          - RLYCommandType
+          - RLYANCSTimeoutAlertCommand
+          - RLYAdvertisingNameCommand
+          - RLYClearBondsCommand
+          - RLYConnectionLEDCommand
+          - RLYConnectionLEDResponseCommand
+          - RLYDFUCommand
+          - RLYDFUCommandTimeout
+          - RLYDateTimeCommand
+          - RLYDeepSleepCommand
+          - RLYDisconnectVibrationCommand
+          - RLYDisconnectVibrationCommandMillisecondsPerUnit
+          - RLYFirmwareResetCommand
+          - RLYLoggingQuery
+          - RLYLoggingQueryCommand
+          - RLYMobileOSCommand
+          - RLYMobileOSType
+          - RLYNoActionCommand
+          - RLYSleepModeCommand
+          - RLYSleepModeCommandDefaultSleepTime
+          - RLYSleepModeCommandDisabledSleepTime
+          - RLYTapParametersCommand
+
+    - name: Notification Settings Commands
+      children:
+          - RLYApplicationSettingsCommand
+          - RLYClearApplicationSettingsCommand
+          - RLYClearContactSettingsCommand
+          - RLYContactSettingsCommand
+          - RLYContactsMode
+          - RLYContactsModeCommand
+          - RLYSettingsCommandMode
+          - RLYSettingsCommandModeToString
+
+    - name: Color and Vibration Commands
+      children:
+          - RLYColorVibrationCommand
+          - RLYColorVibrationCommandMillisecondsPerUnit
+          - RLYColorBehavior
+          - RLYVibrationBehavior
+
+    - name: Keyframes
+      children:
+          - RLYKeyframeCommand
+          - RLYKeyframeTimestamp
+          - RLYColorKeyframe
+          - RLYVibrationKeyframe
+
+    - name: Colors
+      children:
+          - RLYColor
+          - RLYColorComponent
+          - RLYColorEqualToColor
+          - RLYColorMake
+          - RLYColorNone
+          - RLYColorToString
+
+    - name: Vibrations
+      children:
+          - RLYVibration
+          - RLYVibrationFromCount
+          - RLYVibrationToCount
+          - RLYVibrationToString
+          - RLYVibrationPower
+
+    - name: ANCS
+      children:
+          - RLYANCSCategory
+          - RLYANCSCategoryFromNumericalString
+          - RLYANCSNotification
+          - RLYANCSNotificationFlags
+          - RLYANCSNotificationFlagsValue
+          - RLYANCSNotificationVersion
+          - RLYPeripheralANCSNotificationMode
+
+    - name: Errors
+      children:
+          - RLYANCSV1ErrorCode
+          - RLYANCSV1ErrorDomain
+          - RLYANCSV2ErrorCode
+          - RLYANCSV2ErrorDomain
+          - RLYPeripheralErrorCode
+          - RLYPeripheralErrorDomain
+
+    - name: Logging
+      children:
+          - RLYLogFunction
+          - RLYLogFunctionSilent

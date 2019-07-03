@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+import argparse
+import datetime
+
+parser = argparse.ArgumentParser(description="prints a human date from a activity tracking date")
+parser.add_argument("date", type=int)
+
+activity_tracking_date = parser.parse_args().date
+timestamp = 1459972800 + activity_tracking_date * 60
+
+date = datetime.datetime.fromtimestamp(timestamp)
+print(date)

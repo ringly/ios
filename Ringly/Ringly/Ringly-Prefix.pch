@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'Slider' target in the 'Slider' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    // libraries
+    #import <PureLayout/PureLayout.h>
+
+    // functions
+    #import "RLog.h"
+
+    // categories
+    @import RinglyExtensions;
+#endif

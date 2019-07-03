@@ -1,0 +1,234 @@
+// MARK: Generic - Actions
+"Cancel" = "Cancel";
+"Close" = "Close";
+"Connect" = "Connect";
+"Connecting" = "Connecting";
+"Done" = "DONE";
+"Finish" = "Finish";
+"Finished" = "Finished";
+"GetStarted" = "Get started";
+"Next" = "Next";
+"Not now" = "Not now";
+"Reconnect" = "Reconnect";
+"RestartUpdate" = "Restart update";
+"Remove" = "Remove";
+"Send" = "Send";
+"Skip" = "Skip";
+"LetsGo" = "Let’s go!";
+"GotIt" = "Got it";
+"GoForIt" = "Go for it";
+"OKExclamation" = "OK!";
+
+// MARK: Generic - Activity Tracking
+"Calories" = "Calories";
+"Distance" = "Distance";
+"Steps" = "Steps";
+
+// MARK: Generic - Errors
+"UhOh" = "Uh oh!";
+
+// MARK: Generic - Separators
+"WordSeparatorSingle" = " and ";
+"WordSeparatorMultipleInitial" = ", ";
+"WordSeparatorMultipleLast" = ", and ";
+
+// MARK: Generic - Units
+"FeetShort" = "ft";
+"InchesShort" = "in";
+"PoundsShort" = "lb";
+
+// MARK: Activity Tracking
+"Activity" = "Activity";
+"OpenActivity" = "Open Activity";
+"StayActive" = "STAY ACTIVE";
+"Today" = "Today";
+"CaloriesExplanation" = "Your number of calories takes into account the steps taken throughout your day and calories burned while at a resting state such as sleeping or breathing (otherwise known as your BMR).";
+"DistanceExplanationWithHealth" = "You're connected to Apple Health! Your total number of steps include your activity from both your Ringly and your iPhone.";
+"DistanceExplanationWithoutHealth" = "Want to count steps from your phone? Enable Apple Health in Settings > Privacy > Health > Ringly and turn on both the \"Read Data\" and \"Write Data\" permissions.";
+
+// MARK: Activity Tracking - Body Data
+"ActivityBirthDatePrompt" = "WHAT'S YOUR BIRTHDATE?";
+"ActivityHeightPromptLine1" = "HOW TALL ARE YOU?";
+"ActivityHeightPromptLine2" = "SLIDE TO SELECT";
+"ActivityHeightPromptLine3" = "YOUR HEIGHT";
+"ActivityWeightPromptLine1" = "WHAT'S YOUR WEIGHT?";
+"ActivityWeightPromptLine2" = "SLIDE TO SELECT";
+
+// MARK: Activity Tracking - Updating
+"ActivityWaitingForUpdates" = "Waiting for updates";
+"ActivityPoweredByHealth" = "Activity powered by Health";
+"ActivityPleaseConnectHealth" = "Please connect to Health";
+"ActivityUpdatedJustNow" = "Updated just now";
+
+"ActivityUpdatedOneSecondAgo" = "Updated 1 second ago";
+"ActivityUpdatedSecondsAgo" = "Updated %d seconds ago";
+"ActivityUpdatedOneMinuteAgo" = "Updated 1 minute ago";
+"ActivityUpdatedMinutesAgo" = "Updated %d minutes ago";
+"ActivityUpdatedOneHourAgo" = "Updated 1 hour ago";
+"ActivityUpdatedHoursAgo" = "Updated %d hours ago";
+
+// MARK: Authentication
+"AlreadySignedUpQuestion" = "Already signed up?";
+"CheckEmailForPasswordLink" = "Please check your email for a link to reset your password";
+"ForgotPasswordQuestion" = "Forgot Password?";
+"ForgotPasswordTitle" = "FORGOT YOUR\nPASSWORD?";
+"Login" = "Login";
+"LogOut" = "Log Out";
+"NewToRinglyQuestion" = "New to Ringly?";
+"OpenEmail" = "Open Email";
+"OpenIn" = "Open in %@";
+"PasswordRequirementsLong" = "Password must be 8 or more characters.";
+"PasswordRequirementsShort" = "8 or more characters";
+"SignUp" = "Sign Up";
+"ResetPassword" = "Reset Password";
+
+// MARK: Camera
+"CameraAuthorizationDenied" = "Ringly needs permission to access your camera and photos!";
+"CameraNeedsUpdateDetailText" = "Update your Ringly to use it as a selfie remote.";
+
+// MARK: Configurations - Applications
+"Alerts" = "Alerts";
+"OpenAlerts" = "Open Alerts";
+"ApplicationsNewSupportAlertTitle" = "We've integrated with new applications.";
+"ApplicationsNewSupportAlertBody" = "Now supporting %@.";
+"ApplicationsNewSupportAlertFallbackBody" = "Open Alerts to be notified.";
+"ApplicationsEditPromptStarting" = "ADD AND REMOVE APPS BY TAPPING ";
+"ApplicationsEditPromptEnding" = " ABOVE";
+"ApplicationsOnboardingAction" = "SET YOUR ALERTS";
+"ApplicationsOnboardingDetails" = "Choose alerts for your favorite apps and filter out the rest.";
+
+// MARK: Configurations - Contacts
+"Contacts" = "Contacts";
+"ContactsAddAllow" = "To add a contact, please allow %@ access to Contacts in the Settings app.";
+"ContactsInnerRingOn" = "Only receive phone calls and text messages from the below contacts.";
+"ContactsInnerRingOff" = "Receive all phone calls and text messages, but flash an additional color for the below contacts.";
+"ContactsOnboardingAction" = "ADD A CONTACT";
+"ContactsOnboardingDetails" = "Know when your VIPs are calling or texting by assigning them a special light color.\n\nTheir unique color will shine after the alert comes through.";
+"ContactsTooManyText" = "Oh Snap!";
+"ContactsTooManyDetailText" = "Looks like you have too many friends. Ringly can only support up to 32 contacts.";
+"OpenSettings" = "Open Settings";
+
+// MARK: DFU
+"DFUCompleteText" = "ALL DONE";
+"DFUCompleteDetailText" = "Your Ringly is using the latest and greatest software.\nEnjoy! 😘";
+"DFUPhoneBatteryText" = "Low Battery";
+"DFUPhoneBatteryDetailText" = "Please plug in your device to proceed.";
+"DFUPhoneBatteryCompleteText" = "Well done. Let's go!";
+"DFURingInChargerText" = "READY TO UPDATE?";
+"DFURingInChargerDetailText" = "This update should only take a few minutes. A couple things to check before we start:";
+"DFUConnectingText" = "CONNECTING...";
+"DFUUpdatingText" = "UPDATING...";
+"DFUProgressDetailTextSingleUpdate" = "Won't be long now! Remember to stay close and plugged in!";
+"DFUProgressDetailTextMultipleUpdates" = "We're prepping your Ringly for it's update! It's light will show a rainbow pattern during the update, pretty right? 🌈";
+"DFUToggleBluetoothText" = "Reset Bluetooth";
+"DFUToggleBluetoothDetailText" = "Swipe up from the bottom of your screen & toggle Bluetooth off, then on.\nEasy, Right?";
+"DFUUnpairFirstText" = "Let’s unpair your Ringly\nin the settings app";
+"DFUUnpairFirstDetailText" = "COMPLETE THE ABOVE STEPS\nTO PROCEED.";
+"DFUUnpairSecondText" = "Unpair your Ringly again. Last time, we promise!";
+"DFUUnpairSecondDetailText" = "COMPLETE THE ABOVE STEPS\nONE MORE TIME.";
+"DFUChecklistOne" = "Make sure your Ringly is charging.";
+"DFUChecklistTwo" = "Keep your phone close to your Ringly.";
+"DFUChecklistThree" = "Disconnect or turn off any Bluetooth audio devices connected to your phone.";
+"DFUReconnectAlertTitle" = "WE LOST CONNECTION";
+"DFUReconnectAlertBody" = "Let's try the following...";
+"DFUFailedAlertTitle" = "YOUR RINGLY DIDN'T UPDATE";
+"DFUFailedAlertBody" = "Please do the following...";
+"DFUFailedAlertDescription" = "Looks like your update didn't complete. Check to make sure your Ringly is in range and charging, and let's try this again.";
+"DFUTryingToReconnect" = "Trying to reconnect...";
+
+// MARK: Collect Diagnostic Data
+"CollectingDiagnosticData" = "Collecting Diagnostics…";
+"UploadingDiagnosticData" = "Uploading Diagnostics…";
+"FinishedUploadingDiagnosticData" = "Success! Diagnostics sent to the customer support team.";
+
+// MARK: Notifications
+"EngagementEditApplicationBehaviorAlertAction" = "edit";
+"EngagementEditApplicationBehaviorAlertBody" = "You can change the color and vibration of alerts. Have you tried it yet? 🌈";
+"EngagementAddRemoveApplicationsAlertAction" = "edit";
+"EngagementAddRemoveApplicationsAlertBody" = "RINGLY supports over 200 apps. Be sure to select the ones you think are important.";
+"EngagementSetUpActivityAlertAction" = "set up";
+"EngagementSetUpActivityAlertBody" = "We're glad you're with us! Let's set up your activity and mindfulness goals. 🏃‍♀️";
+"EngagementStartedBreatherAlertBody" = "Need to de-stress this afternoon? Try a one minute breathing exercise. 🌬";
+"EngagementStartedMeditationAlertBody" = "Take a moment for some peace of mind. Try a guided audio meditation. 🙏";
+"EngagementStayHydratedAlertBody" = "How's your step count? Make sure you're staying hydrated. 💧";
+"EngagementStepGoalEncouragementAlertBody" = "🏅 See if you can hit your %@ step goal today! One foot in front of the other.";
+"FullBatteryNotificationText" = "Full Battery";
+"FullBatteryNotificationDetailText" = "Your Ringly is charged and ready to rock the day. 💯💎";
+"LowBatteryNotificationText" = "Low Battery";
+"LowBatteryNotificationDetailText" = "Your %@ has %d%%%% charge remaining."; // double %% required for UILocalNotification
+"ChargeBatteryNotificationText" = "Remember to Charge Your Ringly";
+"ChargeBatteryNotificationDetailText" = "As your day starts to unwind, don’t forget to charge your Ringly so you’re ready for tomorrow. 💎⚡️😴";
+
+// MARK: Onboarding - Activity
+"OnboardingActivityTitle" = "TRACK YOUR\nDAILY ACTIVITY";
+"OnboardingActivityDescription" = "Ringly discreetly tracks your steps, distance, and calories burned.";
+
+// MARK: Onboarding - Apps
+"OnboardingAppsTitle" = "WELCOME TO RINGLY";
+"OnboardingAppsDescription" = "Ringly connects to your phone and lets you customize mobile alerts through vibration and subtle light.";
+
+// MARK: Onboarding - Notifications
+"OnboardingNotificationsTitle" = "CELEBRATE GOALS & STAY MOTIVATED";
+"OnboardingNotificationsDescription" = "Know when you reach your goals, stay motivated, and keep tabs on your battery with Ringly notifications.";
+"OnboardingNotificationsAccept" = "ALLOW NOTIFICATIONS";
+"OnboardingNotificationsDecline" = "NO THANKS";
+
+// MARK: Onboarding - Mindfulness
+"MindfulnessOnboardingAction" = "Daily Reminder";
+"MindfulnessOnboardingDetails" = "Set a goal to de-stress each day with mindfulness exercises.";
+
+// MARK: Peripheral Interface
+"PeripheralsAddJewelry" = "ADD JEWELRY";
+"PeripheralsJewelry" = "Jewelry";
+"PeripheralsMakeSureCharged" = "Please make sure your Ringly is charged, and try to connect again.";
+"PeripheralsPlaceInCharger" = "Oh dear - We can’t seem to connect with your Ringly. Make sure your Ringly is charging and try to connect again.";
+"Select" = "Select";
+"UpdateYourRingly" = "Update your Ringly";
+"LetsUpdateYourRingly" = "Let’s update your Ringly";
+"SelfieUpdateReason" = "For access to our Selfie feature, we'll need to update your Ringly.";
+
+// MARK: Peripheral States
+"Connected" = "Connected";
+"Charging" = "Charging";
+"Charged" = "Charged";
+"NotConnected" = "Not Connected";
+
+// MARK: Reviews - Prompt
+"ReviewsPromptTitle" = "Are you\nenjoying Ringly?";
+"ReviewsPromptPositive" = "Yes!";
+"ReviewsPromptNegative" = "Not really";
+
+// MARK: Reviews - Positive
+"ReviewsPositiveEmoji" = "😊";
+"ReviewsPositiveTitle" = "We're so happy you love Ringly!";
+"ReviewsPositiveBody" = "How about rating us on the App Store?";
+"ReviewsPositiveAction" = "OK, Sure";
+"ReviewsPositiveDismiss" = "No Thanks";
+
+// MARK: Reviews - Negative
+"ReviewsNegativeEmoji" = "🙁";
+"ReviewsNegativeTitle" = "Would you mind leaving feedback?";
+"ReviewsNegativeBody" = "We would love to make your Ringly experience better.";
+"ReviewsNegativeAction" = "OK, Sure";
+"ReviewsNegativeDismiss" = "No Thanks";
+"ReviewsNegativeCompletionEmoji" = "💎";
+"ReviewsNegativeCompletionTitle" = "You're a gem!\nThank you so much for your feedback!";
+
+// MARK: Reviews - Feedback
+"ReviewsFeedbackTitle" = "Feedback";
+"ReviewsFeedbackDiscard" = "Discard Feedback";
+
+// MARK: Settings
+"SettingsEnableAlerts" = "Enable Alerts";
+"SettingsEnableBatteryAlertsPrompt" = "To receive battery alerts, please enable notification alerts for %@ in the Settings app.";
+"SettingsEnableMindfulnessAlertsPrompt" = "To receive mindfulness reminders, please enable notification alerts for %@ in the Settings app.";
+"SettingsEnableActivityEncouragementPrompt" = "To receive activity encouragement, please enable notification alerts for %@ in the Settings app.";
+
+// MARK: Tab Bar Titles
+"TabBarActivity" = "Activity";
+"TabBarAlerts" = "Alerts";
+"TabBarConnect" = "Connect";
+"TabBarContacts" = "Contacts";
+"TabBarSettings" = "Settings";
+
+"Notifications" = "Notifications";

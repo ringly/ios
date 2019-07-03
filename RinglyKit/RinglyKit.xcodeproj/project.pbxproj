@@ -1,0 +1,1751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		431C119E1BD7EAD70081CB04 /* RLYStringFittingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 431C119D1BD7EAD70081CB04 /* RLYStringFittingTests.m */; };
+		431C119F1BD7EAD70081CB04 /* RLYStringFittingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 431C119D1BD7EAD70081CB04 /* RLYStringFittingTests.m */; };
+		431C11A21BD7F8650081CB04 /* RLYPeripheralEnumerations.m in Sources */ = {isa = PBXBuildFile; fileRef = 431C11A11BD7F8650081CB04 /* RLYPeripheralEnumerations.m */; };
+		431C11A31BD7F8650081CB04 /* RLYPeripheralEnumerations.m in Sources */ = {isa = PBXBuildFile; fileRef = 431C11A11BD7F8650081CB04 /* RLYPeripheralEnumerations.m */; };
+		431C11A41BD7F8720081CB04 /* RLYPeripheralEnumerations.h in Headers */ = {isa = PBXBuildFile; fileRef = 431C11A01BD7F83E0081CB04 /* RLYPeripheralEnumerations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		431C11A51BD7F8730081CB04 /* RLYPeripheralEnumerations.h in Headers */ = {isa = PBXBuildFile; fileRef = 431C11A01BD7F83E0081CB04 /* RLYPeripheralEnumerations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4321D5AD1BAB3E25000C4A68 /* RLYLogFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4321D5AB1BAB3E25000C4A68 /* RLYLogFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4321D5AE1BAB3E25000C4A68 /* RLYLogFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4321D5AB1BAB3E25000C4A68 /* RLYLogFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4321D5AF1BAB3E25000C4A68 /* RLYLogFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4321D5AC1BAB3E25000C4A68 /* RLYLogFunction.m */; };
+		4321D5B01BAB3E25000C4A68 /* RLYLogFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4321D5AC1BAB3E25000C4A68 /* RLYLogFunction.m */; };
+		433A66BC1BFE3C6E00E80DAF /* RLYFunctionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 433A66BB1BFE3C6E00E80DAF /* RLYFunctionsTests.m */; };
+		433A66BD1BFE3C6E00E80DAF /* RLYFunctionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 433A66BB1BFE3C6E00E80DAF /* RLYFunctionsTests.m */; };
+		433F9AF51BE1244B000E9910 /* RLYANCSV2Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 433F9AF31BE1244B000E9910 /* RLYANCSV2Parser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		433F9AF61BE1244B000E9910 /* RLYANCSV2Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 433F9AF31BE1244B000E9910 /* RLYANCSV2Parser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		433F9AF71BE1244B000E9910 /* RLYANCSV2Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 433F9AF41BE1244B000E9910 /* RLYANCSV2Parser.m */; };
+		433F9AF81BE1244B000E9910 /* RLYANCSV2Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 433F9AF41BE1244B000E9910 /* RLYANCSV2Parser.m */; };
+		433F9AFB1BE12A0C000E9910 /* RLYANCSV2ParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 433F9AFA1BE12A0C000E9910 /* RLYANCSV2ParserTests.m */; };
+		433F9AFC1BE12A0C000E9910 /* RLYANCSV2ParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 433F9AFA1BE12A0C000E9910 /* RLYANCSV2ParserTests.m */; };
+		433F9B011BE12D77000E9910 /* RLYANCSV2Error.h in Headers */ = {isa = PBXBuildFile; fileRef = 433F9AFF1BE12D77000E9910 /* RLYANCSV2Error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		433F9B021BE12D77000E9910 /* RLYANCSV2Error.h in Headers */ = {isa = PBXBuildFile; fileRef = 433F9AFF1BE12D77000E9910 /* RLYANCSV2Error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4346EFE01BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 4346EFDE1BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4346EFE11BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 4346EFDE1BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4346EFE21BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4346EFDF1BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.m */; };
+		4346EFE31BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4346EFDF1BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.m */; };
+		435A2C1F1C1F20A400DB2858 /* RLYNoActionCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 435A2C1D1C1F20A400DB2858 /* RLYNoActionCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435A2C201C1F20A400DB2858 /* RLYNoActionCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 435A2C1D1C1F20A400DB2858 /* RLYNoActionCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435A2C211C1F20A400DB2858 /* RLYNoActionCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A2C1E1C1F20A400DB2858 /* RLYNoActionCommand.m */; };
+		435A2C221C1F20A400DB2858 /* RLYNoActionCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A2C1E1C1F20A400DB2858 /* RLYNoActionCommand.m */; };
+		435A2C241C1F21A200DB2858 /* RLYNoActionCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A2C231C1F21A200DB2858 /* RLYNoActionCommandTests.m */; };
+		435A2C251C1F21A200DB2858 /* RLYNoActionCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A2C231C1F21A200DB2858 /* RLYNoActionCommandTests.m */; };
+		435A2C281C2099CB00DB2858 /* RLYColorKeyframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 435A2C261C2099CB00DB2858 /* RLYColorKeyframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435A2C291C2099CB00DB2858 /* RLYColorKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A2C271C2099CB00DB2858 /* RLYColorKeyframe.m */; };
+		435A2C2D1C209B7900DB2858 /* RLYVibrationKeyframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 435A2C2B1C209B7900DB2858 /* RLYVibrationKeyframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435A2C2E1C209B7900DB2858 /* RLYVibrationKeyframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 435A2C2B1C209B7900DB2858 /* RLYVibrationKeyframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435A2C2F1C209B7900DB2858 /* RLYVibrationKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A2C2C1C209B7900DB2858 /* RLYVibrationKeyframe.m */; };
+		435A2C301C209B7900DB2858 /* RLYVibrationKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A2C2C1C209B7900DB2858 /* RLYVibrationKeyframe.m */; };
+		435A2C311C209B7D00DB2858 /* RLYColorKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A2C271C2099CB00DB2858 /* RLYColorKeyframe.m */; };
+		435A2C321C209B8200DB2858 /* RLYColorKeyframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 435A2C261C2099CB00DB2858 /* RLYColorKeyframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435A2C371C209D4A00DB2858 /* RLYCommand+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 435A2C361C209D4A00DB2858 /* RLYCommand+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		435A2C381C209D5000DB2858 /* RLYCommand+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 435A2C361C209D4A00DB2858 /* RLYCommand+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		435A2C3B1C20A23C00DB2858 /* RLYKeyframeCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 435A2C391C20A23C00DB2858 /* RLYKeyframeCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435A2C3C1C20A23C00DB2858 /* RLYKeyframeCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 435A2C391C20A23C00DB2858 /* RLYKeyframeCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435A2C3D1C20A23C00DB2858 /* RLYKeyframeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A2C3A1C20A23C00DB2858 /* RLYKeyframeCommand.m */; };
+		435A2C3E1C20A23C00DB2858 /* RLYKeyframeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A2C3A1C20A23C00DB2858 /* RLYKeyframeCommand.m */; };
+		435CF8141E01D96B004E5352 /* RLYPeripheralLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 435CF8131E01D96B004E5352 /* RLYPeripheralLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435CF8151E01D96B004E5352 /* RLYPeripheralLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 435CF8131E01D96B004E5352 /* RLYPeripheralLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435FECA71BE15E85001746E1 /* RLYANCSV1Error.h in Headers */ = {isa = PBXBuildFile; fileRef = 435FECA51BE15E85001746E1 /* RLYANCSV1Error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435FECA81BE15E85001746E1 /* RLYANCSV1Error.h in Headers */ = {isa = PBXBuildFile; fileRef = 435FECA51BE15E85001746E1 /* RLYANCSV1Error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435FECAC1BE15FB6001746E1 /* RLYANCSV1ParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 435FECAB1BE15FB6001746E1 /* RLYANCSV1ParserTests.m */; };
+		435FECAD1BE15FB6001746E1 /* RLYANCSV1ParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 435FECAB1BE15FB6001746E1 /* RLYANCSV1ParserTests.m */; };
+		435FECB21BE28795001746E1 /* RLYANCSNotificationFlags.h in Headers */ = {isa = PBXBuildFile; fileRef = 435FECB01BE28795001746E1 /* RLYANCSNotificationFlags.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435FECB31BE28795001746E1 /* RLYANCSNotificationFlags.h in Headers */ = {isa = PBXBuildFile; fileRef = 435FECB01BE28795001746E1 /* RLYANCSNotificationFlags.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435FECB41BE28795001746E1 /* RLYANCSNotificationFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 435FECB11BE28795001746E1 /* RLYANCSNotificationFlags.m */; };
+		435FECB51BE28795001746E1 /* RLYANCSNotificationFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = 435FECB11BE28795001746E1 /* RLYANCSNotificationFlags.m */; };
+		436C96A81BBC60FB005A9EB0 /* RLYContactSettingsCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 436C96A61BBC60FB005A9EB0 /* RLYContactSettingsCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436C96A91BBC60FB005A9EB0 /* RLYContactSettingsCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 436C96A61BBC60FB005A9EB0 /* RLYContactSettingsCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436C96AA1BBC60FB005A9EB0 /* RLYContactSettingsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C96A71BBC60FB005A9EB0 /* RLYContactSettingsCommand.m */; };
+		436C96AB1BBC60FB005A9EB0 /* RLYContactSettingsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C96A71BBC60FB005A9EB0 /* RLYContactSettingsCommand.m */; };
+		436C96AD1BBC6216005A9EB0 /* RLYContactsSettingsCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C96AC1BBC6216005A9EB0 /* RLYContactsSettingsCommandTests.m */; };
+		436C96AE1BBC6216005A9EB0 /* RLYContactsSettingsCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C96AC1BBC6216005A9EB0 /* RLYContactsSettingsCommandTests.m */; };
+		436C96B11BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 436C96AF1BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436C96B21BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 436C96AF1BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436C96B31BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C96B01BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.m */; };
+		436C96B41BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C96B01BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.m */; };
+		436D2CD71C5F92DB009E0AB3 /* RLYPeripheralDeviceInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 436D2CD61C5F92DB009E0AB3 /* RLYPeripheralDeviceInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436D2CD81C5F92DB009E0AB3 /* RLYPeripheralDeviceInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 436D2CD61C5F92DB009E0AB3 /* RLYPeripheralDeviceInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436D2CDA1C5F943E009E0AB3 /* RLYPeripheralObservation.h in Headers */ = {isa = PBXBuildFile; fileRef = 436D2CD91C5F943E009E0AB3 /* RLYPeripheralObservation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436D2CDB1C5F943E009E0AB3 /* RLYPeripheralObservation.h in Headers */ = {isa = PBXBuildFile; fileRef = 436D2CD91C5F943E009E0AB3 /* RLYPeripheralObservation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436D2CDE1C5F94E0009E0AB3 /* RLYPeripheralBatteryInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 436D2CDD1C5F94E0009E0AB3 /* RLYPeripheralBatteryInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436D2CDF1C5F94E0009E0AB3 /* RLYPeripheralBatteryInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 436D2CDD1C5F94E0009E0AB3 /* RLYPeripheralBatteryInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437578511CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 4375784F1CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		437578521CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 4375784F1CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		437578531CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 437578501CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.m */; };
+		437578541CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 437578501CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.m */; };
+		437578571CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578551CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		437578581CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578551CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		437578591CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 437578561CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.m */; };
+		4375785A1CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 437578561CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.m */; };
+		4375785D1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 4375785B1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4375785E1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 4375785B1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4375785F1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375785C1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.m */; };
+		437578601CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375785C1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.m */; };
+		437578631CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578611CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		437578641CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578611CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		437578651CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 437578621CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.m */; };
+		437578661CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 437578621CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.m */; };
+		4375786F1CBD400100243662 /* RLYPeripheralActivityCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 4375786D1CBD400100243662 /* RLYPeripheralActivityCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		437578701CBD400100243662 /* RLYPeripheralActivityCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 4375786D1CBD400100243662 /* RLYPeripheralActivityCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		437578711CBD400100243662 /* RLYPeripheralActivityCharacteristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375786E1CBD400100243662 /* RLYPeripheralActivityCharacteristics.m */; };
+		437578721CBD400100243662 /* RLYPeripheralActivityCharacteristics.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375786E1CBD400100243662 /* RLYPeripheralActivityCharacteristics.m */; };
+		437578741CBD4A1B00243662 /* RLYPeripheralActivityTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578731CBD4A1B00243662 /* RLYPeripheralActivityTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437578751CBD4A1B00243662 /* RLYPeripheralActivityTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578731CBD4A1B00243662 /* RLYPeripheralActivityTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437578791CBD69B400243662 /* RLYActivityTrackingUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578771CBD69B400243662 /* RLYActivityTrackingUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4375787A1CBD69B400243662 /* RLYActivityTrackingUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578771CBD69B400243662 /* RLYActivityTrackingUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4375787B1CBD69B400243662 /* RLYActivityTrackingUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 437578781CBD69B400243662 /* RLYActivityTrackingUpdate.m */; };
+		4375787C1CBD69B400243662 /* RLYActivityTrackingUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 437578781CBD69B400243662 /* RLYActivityTrackingUpdate.m */; };
+		4375787F1CBD69CE00243662 /* RLYActivityTrackingDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4375787D1CBD69CE00243662 /* RLYActivityTrackingDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437578801CBD69CE00243662 /* RLYActivityTrackingDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4375787D1CBD69CE00243662 /* RLYActivityTrackingDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437578811CBD69CE00243662 /* RLYActivityTrackingDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375787E1CBD69CE00243662 /* RLYActivityTrackingDate.m */; };
+		437578821CBD69CE00243662 /* RLYActivityTrackingDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375787E1CBD69CE00243662 /* RLYActivityTrackingDate.m */; };
+		4375788B1CBD7DCC00243662 /* RLYActivityTrackingDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375788A1CBD7DCC00243662 /* RLYActivityTrackingDateTests.m */; };
+		4375788C1CBD7DCC00243662 /* RLYActivityTrackingDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375788A1CBD7DCC00243662 /* RLYActivityTrackingDateTests.m */; };
+		4375788F1CBDA5FC00243662 /* RLYActivityTrackingDateError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4375788D1CBDA5FC00243662 /* RLYActivityTrackingDateError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437578901CBDA5FC00243662 /* RLYActivityTrackingDateError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4375788D1CBDA5FC00243662 /* RLYActivityTrackingDateError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437578941CBDAAFC00243662 /* RLYActivityTrackingUpdate+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578931CBDAAEC00243662 /* RLYActivityTrackingUpdate+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		437578951CBDAAFD00243662 /* RLYActivityTrackingUpdate+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578931CBDAAEC00243662 /* RLYActivityTrackingUpdate+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		437578971CBDAEAA00243662 /* RLYActivityTrackingUpdateError.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578961CBDAEAA00243662 /* RLYActivityTrackingUpdateError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437578981CBDAEAA00243662 /* RLYActivityTrackingUpdateError.h in Headers */ = {isa = PBXBuildFile; fileRef = 437578961CBDAEAA00243662 /* RLYActivityTrackingUpdateError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4375789A1CBE7BCA00243662 /* RLYActivityTrackingUpdateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437578991CBE7BCA00243662 /* RLYActivityTrackingUpdateTests.m */; };
+		4375789B1CBE7BCA00243662 /* RLYActivityTrackingUpdateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 437578991CBE7BCA00243662 /* RLYActivityTrackingUpdateTests.m */; };
+		4378B4371B56BB8E00B175DE /* RinglyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B4361B56BB8E00B175DE /* RinglyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4378B43D1B56BB8E00B175DE /* RinglyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4378B4311B56BB8E00B175DE /* RinglyKit.framework */; };
+		4378B4441B56BB8E00B175DE /* RLYApplicationSettingsCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4431B56BB8E00B175DE /* RLYApplicationSettingsCommandTests.m */; };
+		4378B47C1B56BCF000B175DE /* RLYANCSNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B44F1B56BCF000B175DE /* RLYANCSNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4378B47D1B56BCF000B175DE /* RLYANCSNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4501B56BCF000B175DE /* RLYANCSNotification.m */; };
+		4378B4901B56BCF000B175DE /* RLYFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B4631B56BCF000B175DE /* RLYFunctions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4378B4911B56BCF000B175DE /* RLYFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4641B56BCF000B175DE /* RLYFunctions.m */; };
+		4378B49A1B56BCF000B175DE /* RLYObservers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B46D1B56BCF000B175DE /* RLYObservers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4378B49B1B56BCF000B175DE /* RLYObservers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B46E1B56BCF000B175DE /* RLYObservers.m */; };
+		4378B49C1B56BCF000B175DE /* RLYPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B46F1B56BCF000B175DE /* RLYPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4378B49D1B56BCF000B175DE /* RLYPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4701B56BCF000B175DE /* RLYPeripheral.m */; };
+		4378B49E1B56BCF000B175DE /* RLYPeripheral+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B4711B56BCF000B175DE /* RLYPeripheral+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4378B49F1B56BCF000B175DE /* RLYCentral.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B4721B56BCF000B175DE /* RLYCentral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4378B4A01B56BCF000B175DE /* RLYCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4731B56BCF000B175DE /* RLYCentral.m */; };
+		4378B4A51B56BCF000B175DE /* RLYUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B4781B56BCF000B175DE /* RLYUUID.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4378B4A61B56BCF000B175DE /* RLYUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4791B56BCF000B175DE /* RLYUUID.m */; };
+		4378B4BA1B56BDAA00B175DE /* RinglyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4378B4AF1B56BDAA00B175DE /* RinglyKit.framework */; };
+		4378B4C81B56BDC400B175DE /* RLYApplicationSettingsCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4431B56BB8E00B175DE /* RLYApplicationSettingsCommandTests.m */; };
+		4378B4C91B56BE0600B175DE /* RLYANCSNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4501B56BCF000B175DE /* RLYANCSNotification.m */; };
+		4378B4CA1B56BE0600B175DE /* RLYPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4701B56BCF000B175DE /* RLYPeripheral.m */; };
+		4378B4CB1B56BE0600B175DE /* RLYCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4731B56BCF000B175DE /* RLYCentral.m */; };
+		4378B4CC1B56BE0600B175DE /* RLYUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4791B56BCF000B175DE /* RLYUUID.m */; };
+		4378B4DC1B56BE0600B175DE /* RLYFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B4641B56BCF000B175DE /* RLYFunctions.m */; };
+		4378B4DE1B56BE0600B175DE /* RLYObservers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4378B46E1B56BCF000B175DE /* RLYObservers.m */; };
+		4378B4DF1B56BFC100B175DE /* RinglyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B4361B56BB8E00B175DE /* RinglyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4378B4E01B56BFC100B175DE /* RLYANCSNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B44F1B56BCF000B175DE /* RLYANCSNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4378B4E11B56BFC100B175DE /* RLYPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B46F1B56BCF000B175DE /* RLYPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4378B4E21B56BFC200B175DE /* RLYPeripheral+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B4711B56BCF000B175DE /* RLYPeripheral+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4378B4E31B56BFC200B175DE /* RLYCentral.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B4721B56BCF000B175DE /* RLYCentral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4378B4E41B56BFC200B175DE /* RLYUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B4781B56BCF000B175DE /* RLYUUID.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4378B4F41B56BFC200B175DE /* RLYFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B4631B56BCF000B175DE /* RLYFunctions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4378B4F61B56BFC200B175DE /* RLYObservers.h in Headers */ = {isa = PBXBuildFile; fileRef = 4378B46D1B56BCF000B175DE /* RLYObservers.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		437CF0B41BFF805800B9E9B8 /* RLYColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 437CF0B21BFF805800B9E9B8 /* RLYColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437CF0B51BFF805800B9E9B8 /* RLYColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 437CF0B21BFF805800B9E9B8 /* RLYColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437CF0B61BFF805800B9E9B8 /* RLYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 437CF0B31BFF805800B9E9B8 /* RLYColor.m */; };
+		437CF0B71BFF805800B9E9B8 /* RLYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 437CF0B31BFF805800B9E9B8 /* RLYColor.m */; };
+		437CF0BA1BFF811A00B9E9B8 /* RLYVibration.h in Headers */ = {isa = PBXBuildFile; fileRef = 437CF0B81BFF811A00B9E9B8 /* RLYVibration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437CF0BB1BFF811A00B9E9B8 /* RLYVibration.h in Headers */ = {isa = PBXBuildFile; fileRef = 437CF0B81BFF811A00B9E9B8 /* RLYVibration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437CF0BC1BFF811A00B9E9B8 /* RLYVibration.m in Sources */ = {isa = PBXBuildFile; fileRef = 437CF0B91BFF811A00B9E9B8 /* RLYVibration.m */; };
+		437CF0BD1BFF811A00B9E9B8 /* RLYVibration.m in Sources */ = {isa = PBXBuildFile; fileRef = 437CF0B91BFF811A00B9E9B8 /* RLYVibration.m */; };
+		438ABE601BCEA8440039FE39 /* RLYContactsModeCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 438ABE5E1BCEA8440039FE39 /* RLYContactsModeCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		438ABE611BCEA8440039FE39 /* RLYContactsModeCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 438ABE5E1BCEA8440039FE39 /* RLYContactsModeCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		438ABE621BCEA8440039FE39 /* RLYContactsModeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 438ABE5F1BCEA8440039FE39 /* RLYContactsModeCommand.m */; };
+		438ABE631BCEA8440039FE39 /* RLYContactsModeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 438ABE5F1BCEA8440039FE39 /* RLYContactsModeCommand.m */; };
+		4391B85F1C9236D9003A8826 /* RLYCentralDiscovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 4391B85D1C9236D9003A8826 /* RLYCentralDiscovery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4391B8601C9236D9003A8826 /* RLYCentralDiscovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 4391B85D1C9236D9003A8826 /* RLYCentralDiscovery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4391B8611C9236D9003A8826 /* RLYCentralDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4391B85E1C9236D9003A8826 /* RLYCentralDiscovery.m */; };
+		4391B8621C9236D9003A8826 /* RLYCentralDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4391B85E1C9236D9003A8826 /* RLYCentralDiscovery.m */; };
+		4393C1471BF391DC000AC4F2 /* RLYPeripheralObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 4393C1461BF391DC000AC4F2 /* RLYPeripheralObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4393C1481BF391DC000AC4F2 /* RLYPeripheralObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 4393C1461BF391DC000AC4F2 /* RLYPeripheralObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4393C14A1BF3972A000AC4F2 /* RLYPeripheralEnumerations+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4393C1491BF39724000AC4F2 /* RLYPeripheralEnumerations+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4393C14B1BF3972A000AC4F2 /* RLYPeripheralEnumerations+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4393C1491BF39724000AC4F2 /* RLYPeripheralEnumerations+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		439C202C1D9C45ED00E333A2 /* RLYKnownHardwareVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 439C202A1D9C45ED00E333A2 /* RLYKnownHardwareVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439C202D1D9C45ED00E333A2 /* RLYKnownHardwareVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 439C202A1D9C45ED00E333A2 /* RLYKnownHardwareVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439C202E1D9C45ED00E333A2 /* RLYKnownHardwareVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C202B1D9C45ED00E333A2 /* RLYKnownHardwareVersion.m */; };
+		439C202F1D9C45ED00E333A2 /* RLYKnownHardwareVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 439C202B1D9C45ED00E333A2 /* RLYKnownHardwareVersion.m */; };
+		43A0948D1C600AAA00159B70 /* RLYColorBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A0948B1C600AAA00159B70 /* RLYColorBehavior.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A0948E1C600AAA00159B70 /* RLYColorBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A0948B1C600AAA00159B70 /* RLYColorBehavior.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A0948F1C600AAA00159B70 /* RLYColorBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A0948C1C600AAA00159B70 /* RLYColorBehavior.m */; };
+		43A094901C600AAA00159B70 /* RLYColorBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A0948C1C600AAA00159B70 /* RLYColorBehavior.m */; };
+		43A094931C600AE800159B70 /* RLYVibrationBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A094911C600AE800159B70 /* RLYVibrationBehavior.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A094941C600AE800159B70 /* RLYVibrationBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A094911C600AE800159B70 /* RLYVibrationBehavior.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A094951C600AE800159B70 /* RLYVibrationBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A094921C600AE800159B70 /* RLYVibrationBehavior.m */; };
+		43A094961C600AE800159B70 /* RLYVibrationBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A094921C600AE800159B70 /* RLYVibrationBehavior.m */; };
+		43A3236F1BBB25F900F3BBEF /* RLYCentral+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A3236E1BBB25F900F3BBEF /* RLYCentral+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		43A323701BBB25F900F3BBEF /* RLYCentral+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A3236E1BBB25F900F3BBEF /* RLYCentral+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		43B0CC231BBD5AE30003F4F0 /* RLYAdvertisingNameCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B0CC221BBD5AE30003F4F0 /* RLYAdvertisingNameCommandTests.m */; };
+		43B0CC241BBD5AE30003F4F0 /* RLYAdvertisingNameCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B0CC221BBD5AE30003F4F0 /* RLYAdvertisingNameCommandTests.m */; };
+		43B0CC261BBD5BDA0003F4F0 /* RLYPeripheralCharacteristicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B0CC251BBD5BDA0003F4F0 /* RLYPeripheralCharacteristicsTests.m */; };
+		43B0CC271BBD5BDA0003F4F0 /* RLYPeripheralCharacteristicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B0CC251BBD5BDA0003F4F0 /* RLYPeripheralCharacteristicsTests.m */; };
+		43B606D01BBC245100D9B638 /* RLYPeripheralServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606CE1BBC245100D9B638 /* RLYPeripheralServices.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		43B606D11BBC245100D9B638 /* RLYPeripheralServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606CE1BBC245100D9B638 /* RLYPeripheralServices.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		43B606D21BBC245100D9B638 /* RLYPeripheralServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606CF1BBC245100D9B638 /* RLYPeripheralServices.m */; };
+		43B606D31BBC245100D9B638 /* RLYPeripheralServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606CF1BBC245100D9B638 /* RLYPeripheralServices.m */; };
+		43B606D61BBC246800D9B638 /* RLYPeripheralCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606D41BBC246800D9B638 /* RLYPeripheralCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		43B606D71BBC246800D9B638 /* RLYPeripheralCharacteristics.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606D41BBC246800D9B638 /* RLYPeripheralCharacteristics.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		43B606DD1BBC281B00D9B638 /* RLYPeripheralError.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606DB1BBC281B00D9B638 /* RLYPeripheralError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B606DE1BBC281B00D9B638 /* RLYPeripheralError.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606DB1BBC281B00D9B638 /* RLYPeripheralError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B606E41BBC383600D9B638 /* RLYANCSV1Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606E21BBC383600D9B638 /* RLYANCSV1Parser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		43B606E51BBC383600D9B638 /* RLYANCSV1Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606E21BBC383600D9B638 /* RLYANCSV1Parser.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		43B606E61BBC383600D9B638 /* RLYANCSV1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606E31BBC383600D9B638 /* RLYANCSV1Parser.m */; };
+		43B606E71BBC383600D9B638 /* RLYANCSV1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606E31BBC383600D9B638 /* RLYANCSV1Parser.m */; };
+		43B6070B1BBC48B400D9B638 /* RLYAdvertisingNameCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606EC1BBC48B400D9B638 /* RLYAdvertisingNameCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6070C1BBC48B400D9B638 /* RLYAdvertisingNameCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606EC1BBC48B400D9B638 /* RLYAdvertisingNameCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6070D1BBC48B400D9B638 /* RLYAdvertisingNameCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606ED1BBC48B400D9B638 /* RLYAdvertisingNameCommand.m */; };
+		43B6070E1BBC48B400D9B638 /* RLYAdvertisingNameCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606ED1BBC48B400D9B638 /* RLYAdvertisingNameCommand.m */; };
+		43B607111BBC48B400D9B638 /* RLYClearBondsCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606EF1BBC48B400D9B638 /* RLYClearBondsCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607121BBC48B400D9B638 /* RLYClearBondsCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606EF1BBC48B400D9B638 /* RLYClearBondsCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607131BBC48B400D9B638 /* RLYClearBondsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606F01BBC48B400D9B638 /* RLYClearBondsCommand.m */; };
+		43B607141BBC48B400D9B638 /* RLYClearBondsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606F01BBC48B400D9B638 /* RLYClearBondsCommand.m */; };
+		43B607151BBC48B400D9B638 /* RLYCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606F11BBC48B400D9B638 /* RLYCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607161BBC48B400D9B638 /* RLYCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606F11BBC48B400D9B638 /* RLYCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607171BBC48B400D9B638 /* RLYCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606F21BBC48B400D9B638 /* RLYCommand.m */; };
+		43B607181BBC48B400D9B638 /* RLYCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606F21BBC48B400D9B638 /* RLYCommand.m */; };
+		43B607191BBC48B400D9B638 /* RLYConnectionLEDCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606F31BBC48B400D9B638 /* RLYConnectionLEDCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6071A1BBC48B400D9B638 /* RLYConnectionLEDCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606F31BBC48B400D9B638 /* RLYConnectionLEDCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6071B1BBC48B400D9B638 /* RLYConnectionLEDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606F41BBC48B400D9B638 /* RLYConnectionLEDCommand.m */; };
+		43B6071C1BBC48B400D9B638 /* RLYConnectionLEDCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606F41BBC48B400D9B638 /* RLYConnectionLEDCommand.m */; };
+		43B6071D1BBC48B400D9B638 /* RLYDateTimeCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606F51BBC48B400D9B638 /* RLYDateTimeCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6071E1BBC48B400D9B638 /* RLYDateTimeCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606F51BBC48B400D9B638 /* RLYDateTimeCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6071F1BBC48B400D9B638 /* RLYDateTimeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606F61BBC48B400D9B638 /* RLYDateTimeCommand.m */; };
+		43B607201BBC48B400D9B638 /* RLYDateTimeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606F61BBC48B400D9B638 /* RLYDateTimeCommand.m */; };
+		43B607211BBC48B400D9B638 /* RLYDeepSleepCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606F71BBC48B400D9B638 /* RLYDeepSleepCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607221BBC48B400D9B638 /* RLYDeepSleepCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606F71BBC48B400D9B638 /* RLYDeepSleepCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607231BBC48B400D9B638 /* RLYDeepSleepCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606F81BBC48B400D9B638 /* RLYDeepSleepCommand.m */; };
+		43B607241BBC48B400D9B638 /* RLYDeepSleepCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606F81BBC48B400D9B638 /* RLYDeepSleepCommand.m */; };
+		43B607251BBC48B400D9B638 /* RLYDFUCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606F91BBC48B400D9B638 /* RLYDFUCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607261BBC48B400D9B638 /* RLYDFUCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606F91BBC48B400D9B638 /* RLYDFUCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607271BBC48B400D9B638 /* RLYDFUCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606FA1BBC48B400D9B638 /* RLYDFUCommand.m */; };
+		43B607281BBC48B400D9B638 /* RLYDFUCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606FA1BBC48B400D9B638 /* RLYDFUCommand.m */; };
+		43B607291BBC48B400D9B638 /* RLYDisconnectVibrationCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606FB1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6072A1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606FB1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6072B1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606FC1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.m */; };
+		43B6072C1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606FC1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.m */; };
+		43B6072D1BBC48B400D9B638 /* RLYFirmwareResetCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606FD1BBC48B400D9B638 /* RLYFirmwareResetCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6072E1BBC48B400D9B638 /* RLYFirmwareResetCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606FD1BBC48B400D9B638 /* RLYFirmwareResetCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6072F1BBC48B400D9B638 /* RLYFirmwareResetCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606FE1BBC48B400D9B638 /* RLYFirmwareResetCommand.m */; };
+		43B607301BBC48B400D9B638 /* RLYFirmwareResetCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B606FE1BBC48B400D9B638 /* RLYFirmwareResetCommand.m */; };
+		43B607311BBC48B400D9B638 /* RLYColorVibrationCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606FF1BBC48B400D9B638 /* RLYColorVibrationCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607321BBC48B400D9B638 /* RLYColorVibrationCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B606FF1BBC48B400D9B638 /* RLYColorVibrationCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607331BBC48B400D9B638 /* RLYColorVibrationCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B607001BBC48B400D9B638 /* RLYColorVibrationCommand.m */; };
+		43B607341BBC48B400D9B638 /* RLYColorVibrationCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B607001BBC48B400D9B638 /* RLYColorVibrationCommand.m */; };
+		43B607351BBC48B400D9B638 /* RLYLoggingQueryCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B607011BBC48B400D9B638 /* RLYLoggingQueryCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607361BBC48B400D9B638 /* RLYLoggingQueryCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B607011BBC48B400D9B638 /* RLYLoggingQueryCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607371BBC48B400D9B638 /* RLYLoggingQueryCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B607021BBC48B400D9B638 /* RLYLoggingQueryCommand.m */; };
+		43B607381BBC48B400D9B638 /* RLYLoggingQueryCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B607021BBC48B400D9B638 /* RLYLoggingQueryCommand.m */; };
+		43B607391BBC48B400D9B638 /* RLYMobileOSCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B607031BBC48B400D9B638 /* RLYMobileOSCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6073A1BBC48B400D9B638 /* RLYMobileOSCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B607031BBC48B400D9B638 /* RLYMobileOSCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6073B1BBC48B400D9B638 /* RLYMobileOSCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B607041BBC48B400D9B638 /* RLYMobileOSCommand.m */; };
+		43B6073C1BBC48B400D9B638 /* RLYMobileOSCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B607041BBC48B400D9B638 /* RLYMobileOSCommand.m */; };
+		43B607411BBC48B400D9B638 /* RLYSleepModeCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B607071BBC48B400D9B638 /* RLYSleepModeCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607421BBC48B400D9B638 /* RLYSleepModeCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B607071BBC48B400D9B638 /* RLYSleepModeCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607431BBC48B400D9B638 /* RLYSleepModeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B607081BBC48B400D9B638 /* RLYSleepModeCommand.m */; };
+		43B607441BBC48B400D9B638 /* RLYSleepModeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B607081BBC48B400D9B638 /* RLYSleepModeCommand.m */; };
+		43B607451BBC48B400D9B638 /* RLYTapParametersCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B607091BBC48B400D9B638 /* RLYTapParametersCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607461BBC48B400D9B638 /* RLYTapParametersCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B607091BBC48B400D9B638 /* RLYTapParametersCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607471BBC48B400D9B638 /* RLYTapParametersCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6070A1BBC48B400D9B638 /* RLYTapParametersCommand.m */; };
+		43B607481BBC48B400D9B638 /* RLYTapParametersCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6070A1BBC48B400D9B638 /* RLYTapParametersCommand.m */; };
+		43B6074B1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B607491BBC4BC200D9B638 /* RLYApplicationSettingsCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6074C1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B607491BBC4BC200D9B638 /* RLYApplicationSettingsCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B6074D1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6074A1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.m */; };
+		43B6074E1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B6074A1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.m */; };
+		43B607511BBC527500D9B638 /* RLYClearApplicationSettingsCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B6074F1BBC527500D9B638 /* RLYClearApplicationSettingsCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607521BBC527500D9B638 /* RLYClearApplicationSettingsCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B6074F1BBC527500D9B638 /* RLYClearApplicationSettingsCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B607531BBC527500D9B638 /* RLYClearApplicationSettingsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B607501BBC527500D9B638 /* RLYClearApplicationSettingsCommand.m */; };
+		43B607541BBC527500D9B638 /* RLYClearApplicationSettingsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B607501BBC527500D9B638 /* RLYClearApplicationSettingsCommand.m */; };
+		43B6641A1BCEA9F100C4C2F4 /* RLYContactsModeCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B664191BCEA9F100C4C2F4 /* RLYContactsModeCommandTests.m */; };
+		43B6641B1BCEA9F100C4C2F4 /* RLYContactsModeCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B664191BCEA9F100C4C2F4 /* RLYContactsModeCommandTests.m */; };
+		43CF79931BFBDC4C007145B7 /* RLYErrorFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CF79911BFBDC4C007145B7 /* RLYErrorFunctions.h */; };
+		43CF79941BFBDC4C007145B7 /* RLYErrorFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CF79911BFBDC4C007145B7 /* RLYErrorFunctions.h */; };
+		43CF79951BFBDC4C007145B7 /* RLYErrorFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CF79921BFBDC4C007145B7 /* RLYErrorFunctions.m */; };
+		43CF79961BFBDC4C007145B7 /* RLYErrorFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CF79921BFBDC4C007145B7 /* RLYErrorFunctions.m */; };
+		43CF79981BFBDE23007145B7 /* RLYVibrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CF79971BFBDE23007145B7 /* RLYVibrationTests.m */; };
+		43CF79991BFBDE23007145B7 /* RLYVibrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CF79971BFBDE23007145B7 /* RLYVibrationTests.m */; };
+		43CF799B1BFBDF86007145B7 /* RLYObserversTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CF799A1BFBDF86007145B7 /* RLYObserversTests.m */; };
+		43CF799C1BFBDF86007145B7 /* RLYObserversTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CF799A1BFBDF86007145B7 /* RLYObserversTests.m */; };
+		43D251231BF3CA1E0022E4FD /* RLYDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D251221BF3CA1E0022E4FD /* RLYDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D251241BF3CA1E0022E4FD /* RLYDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D251221BF3CA1E0022E4FD /* RLYDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D251311BF3E22A0022E4FD /* RLYDataStringFunctionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D251301BF3E22A0022E4FD /* RLYDataStringFunctionsTests.m */; };
+		43D251321BF3E22A0022E4FD /* RLYDataStringFunctionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D251301BF3E22A0022E4FD /* RLYDataStringFunctionsTests.m */; };
+		43E0790B1CD14B540083FA36 /* RLYRecoveryPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E079091CD14B540083FA36 /* RLYRecoveryPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43E0790C1CD14B540083FA36 /* RLYRecoveryPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E079091CD14B540083FA36 /* RLYRecoveryPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43E0790D1CD14B540083FA36 /* RLYRecoveryPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0790A1CD14B540083FA36 /* RLYRecoveryPeripheral.m */; };
+		43E0790E1CD14B540083FA36 /* RLYRecoveryPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E0790A1CD14B540083FA36 /* RLYRecoveryPeripheral.m */; };
+		43E079101CD14B730083FA36 /* RLYRecoveryPeripheral+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E0790F1CD14B730083FA36 /* RLYRecoveryPeripheral+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		43E079111CD14B730083FA36 /* RLYRecoveryPeripheral+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E0790F1CD14B730083FA36 /* RLYRecoveryPeripheral+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		43E500181BDA7AD400C7D7CB /* RLYANCSTimeoutAlertCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E500171BDA7AD400C7D7CB /* RLYANCSTimeoutAlertCommandTests.m */; };
+		43E500191BDA7AD400C7D7CB /* RLYANCSTimeoutAlertCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E500171BDA7AD400C7D7CB /* RLYANCSTimeoutAlertCommandTests.m */; };
+		43E5001C1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E5001A1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43E5001D1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E5001A1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43E5001E1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E5001B1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.m */; };
+		43E5001F1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E5001B1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.m */; };
+		43E500211BDA7DDF00C7D7CB /* RLYConnectionLEDResponseCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E500201BDA7DDF00C7D7CB /* RLYConnectionLEDResponseCommandTests.m */; };
+		43E500221BDA7DDF00C7D7CB /* RLYConnectionLEDResponseCommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E500201BDA7DDF00C7D7CB /* RLYConnectionLEDResponseCommandTests.m */; };
+		43F6E0EF1C5FABCD000AAB22 /* RLYPeripheralValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0EE1C5FABCD000AAB22 /* RLYPeripheralValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E0F01C5FABCD000AAB22 /* RLYPeripheralValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0EE1C5FABCD000AAB22 /* RLYPeripheralValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E0F21C5FAF2D000AAB22 /* RLYPeripheralConnectionInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0F11C5FAF2D000AAB22 /* RLYPeripheralConnectionInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E0F31C5FAF2D000AAB22 /* RLYPeripheralConnectionInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0F11C5FAF2D000AAB22 /* RLYPeripheralConnectionInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E0F51C5FAFBD000AAB22 /* RLYPeripheralConfigurationHashing.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0F41C5FAFBD000AAB22 /* RLYPeripheralConfigurationHashing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E0F61C5FAFBD000AAB22 /* RLYPeripheralConfigurationHashing.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0F41C5FAFBD000AAB22 /* RLYPeripheralConfigurationHashing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E0F81C5FB1DA000AAB22 /* RLYPeripheralReading.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0F71C5FB1DA000AAB22 /* RLYPeripheralReading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E0F91C5FB1DA000AAB22 /* RLYPeripheralReading.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0F71C5FB1DA000AAB22 /* RLYPeripheralReading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E0FB1C5FB252000AAB22 /* RLYPeripheralWriting.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0FA1C5FB252000AAB22 /* RLYPeripheralWriting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E0FC1C5FB252000AAB22 /* RLYPeripheralWriting.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0FA1C5FB252000AAB22 /* RLYPeripheralWriting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E0FE1C5FB2BB000AAB22 /* RLYPeripheralANCSNotificationModeInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0FD1C5FB2BB000AAB22 /* RLYPeripheralANCSNotificationModeInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E0FF1C5FB2BB000AAB22 /* RLYPeripheralANCSNotificationModeInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E0FD1C5FB2BB000AAB22 /* RLYPeripheralANCSNotificationModeInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E1011C5FC046000AAB22 /* RLYCentralObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E1001C5FC046000AAB22 /* RLYCentralObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F6E1021C5FC046000AAB22 /* RLYCentralObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F6E1001C5FC046000AAB22 /* RLYCentralObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FEB59E1CF64828006614CC /* RLYSettingsCommandMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 43FEB59D1CF64828006614CC /* RLYSettingsCommandMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FEB59F1CF64828006614CC /* RLYSettingsCommandMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 43FEB59D1CF64828006614CC /* RLYSettingsCommandMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FEB5A11CF64915006614CC /* RLYSettingsCommandMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FEB5A01CF64915006614CC /* RLYSettingsCommandMode.m */; };
+		43FEB5A21CF64915006614CC /* RLYSettingsCommandMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FEB5A01CF64915006614CC /* RLYSettingsCommandMode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4378B43E1B56BB8E00B175DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4378B4281B56BB8E00B175DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4378B4301B56BB8E00B175DE;
+			remoteInfo = RinglyKit;
+		};
+		4378B4BB1B56BDAA00B175DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4378B4281B56BB8E00B175DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4378B4AE1B56BDAA00B175DE;
+			remoteInfo = "RinglyKit-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43144EC61C1A18800015E900 /* RLYDefines+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RLYDefines+Internal.h"; sourceTree = "<group>"; };
+		431C119D1BD7EAD70081CB04 /* RLYStringFittingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYStringFittingTests.m; sourceTree = "<group>"; };
+		431C11A01BD7F83E0081CB04 /* RLYPeripheralEnumerations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralEnumerations.h; sourceTree = "<group>"; };
+		431C11A11BD7F8650081CB04 /* RLYPeripheralEnumerations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYPeripheralEnumerations.m; sourceTree = "<group>"; };
+		4321D5AB1BAB3E25000C4A68 /* RLYLogFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYLogFunction.h; sourceTree = "<group>"; };
+		4321D5AC1BAB3E25000C4A68 /* RLYLogFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYLogFunction.m; sourceTree = "<group>"; };
+		433A66BB1BFE3C6E00E80DAF /* RLYFunctionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYFunctionsTests.m; sourceTree = "<group>"; };
+		433F9AF31BE1244B000E9910 /* RLYANCSV2Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYANCSV2Parser.h; sourceTree = "<group>"; };
+		433F9AF41BE1244B000E9910 /* RLYANCSV2Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYANCSV2Parser.m; sourceTree = "<group>"; };
+		433F9AFA1BE12A0C000E9910 /* RLYANCSV2ParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYANCSV2ParserTests.m; sourceTree = "<group>"; };
+		433F9AFF1BE12D77000E9910 /* RLYANCSV2Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYANCSV2Error.h; sourceTree = "<group>"; };
+		4346EFDE1BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYANCSTimeoutAlertCommand.h; sourceTree = "<group>"; };
+		4346EFDF1BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYANCSTimeoutAlertCommand.m; sourceTree = "<group>"; };
+		435A2C1D1C1F20A400DB2858 /* RLYNoActionCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYNoActionCommand.h; sourceTree = "<group>"; };
+		435A2C1E1C1F20A400DB2858 /* RLYNoActionCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYNoActionCommand.m; sourceTree = "<group>"; };
+		435A2C231C1F21A200DB2858 /* RLYNoActionCommandTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYNoActionCommandTests.m; sourceTree = "<group>"; };
+		435A2C261C2099CB00DB2858 /* RLYColorKeyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYColorKeyframe.h; sourceTree = "<group>"; };
+		435A2C271C2099CB00DB2858 /* RLYColorKeyframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYColorKeyframe.m; sourceTree = "<group>"; };
+		435A2C2B1C209B7900DB2858 /* RLYVibrationKeyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYVibrationKeyframe.h; sourceTree = "<group>"; };
+		435A2C2C1C209B7900DB2858 /* RLYVibrationKeyframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYVibrationKeyframe.m; sourceTree = "<group>"; };
+		435A2C361C209D4A00DB2858 /* RLYCommand+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLYCommand+Internal.h"; sourceTree = "<group>"; };
+		435A2C391C20A23C00DB2858 /* RLYKeyframeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYKeyframeCommand.h; sourceTree = "<group>"; };
+		435A2C3A1C20A23C00DB2858 /* RLYKeyframeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYKeyframeCommand.m; sourceTree = "<group>"; };
+		435CF8131E01D96B004E5352 /* RLYPeripheralLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralLogging.h; sourceTree = "<group>"; };
+		435FECA51BE15E85001746E1 /* RLYANCSV1Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYANCSV1Error.h; sourceTree = "<group>"; };
+		435FECAB1BE15FB6001746E1 /* RLYANCSV1ParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYANCSV1ParserTests.m; sourceTree = "<group>"; };
+		435FECB01BE28795001746E1 /* RLYANCSNotificationFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYANCSNotificationFlags.h; sourceTree = "<group>"; };
+		435FECB11BE28795001746E1 /* RLYANCSNotificationFlags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYANCSNotificationFlags.m; sourceTree = "<group>"; };
+		436C96A61BBC60FB005A9EB0 /* RLYContactSettingsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYContactSettingsCommand.h; sourceTree = "<group>"; };
+		436C96A71BBC60FB005A9EB0 /* RLYContactSettingsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYContactSettingsCommand.m; sourceTree = "<group>"; };
+		436C96AC1BBC6216005A9EB0 /* RLYContactsSettingsCommandTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYContactsSettingsCommandTests.m; sourceTree = "<group>"; };
+		436C96AF1BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYClearContactSettingsCommand.h; sourceTree = "<group>"; };
+		436C96B01BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYClearContactSettingsCommand.m; sourceTree = "<group>"; };
+		436D2CD61C5F92DB009E0AB3 /* RLYPeripheralDeviceInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralDeviceInformation.h; sourceTree = "<group>"; };
+		436D2CD91C5F943E009E0AB3 /* RLYPeripheralObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralObservation.h; sourceTree = "<group>"; };
+		436D2CDD1C5F94E0009E0AB3 /* RLYPeripheralBatteryInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralBatteryInformation.h; sourceTree = "<group>"; };
+		4375784F1CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralRinglyCharacteristics.h; sourceTree = "<group>"; };
+		437578501CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYPeripheralRinglyCharacteristics.m; sourceTree = "<group>"; };
+		437578551CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralDeviceInformationCharacteristics.h; sourceTree = "<group>"; };
+		437578561CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYPeripheralDeviceInformationCharacteristics.m; sourceTree = "<group>"; };
+		4375785B1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralBatteryCharacteristics.h; sourceTree = "<group>"; };
+		4375785C1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYPeripheralBatteryCharacteristics.m; sourceTree = "<group>"; };
+		437578611CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralLoggingCharacteristics.h; sourceTree = "<group>"; };
+		437578621CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYPeripheralLoggingCharacteristics.m; sourceTree = "<group>"; };
+		4375786D1CBD400100243662 /* RLYPeripheralActivityCharacteristics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralActivityCharacteristics.h; sourceTree = "<group>"; };
+		4375786E1CBD400100243662 /* RLYPeripheralActivityCharacteristics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYPeripheralActivityCharacteristics.m; sourceTree = "<group>"; };
+		437578731CBD4A1B00243662 /* RLYPeripheralActivityTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralActivityTracking.h; sourceTree = "<group>"; };
+		437578771CBD69B400243662 /* RLYActivityTrackingUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYActivityTrackingUpdate.h; sourceTree = "<group>"; };
+		437578781CBD69B400243662 /* RLYActivityTrackingUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYActivityTrackingUpdate.m; sourceTree = "<group>"; };
+		4375787D1CBD69CE00243662 /* RLYActivityTrackingDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYActivityTrackingDate.h; sourceTree = "<group>"; };
+		4375787E1CBD69CE00243662 /* RLYActivityTrackingDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYActivityTrackingDate.m; sourceTree = "<group>"; };
+		4375788A1CBD7DCC00243662 /* RLYActivityTrackingDateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYActivityTrackingDateTests.m; sourceTree = "<group>"; };
+		4375788D1CBDA5FC00243662 /* RLYActivityTrackingDateError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYActivityTrackingDateError.h; sourceTree = "<group>"; };
+		437578931CBDAAEC00243662 /* RLYActivityTrackingUpdate+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RLYActivityTrackingUpdate+Internal.h"; sourceTree = "<group>"; };
+		437578961CBDAEAA00243662 /* RLYActivityTrackingUpdateError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYActivityTrackingUpdateError.h; sourceTree = "<group>"; };
+		437578991CBE7BCA00243662 /* RLYActivityTrackingUpdateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYActivityTrackingUpdateTests.m; sourceTree = "<group>"; };
+		4378B4311B56BB8E00B175DE /* RinglyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RinglyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4378B4351B56BB8E00B175DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4378B4361B56BB8E00B175DE /* RinglyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RinglyKit.h; sourceTree = "<group>"; };
+		4378B43C1B56BB8E00B175DE /* RinglyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RinglyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4378B4421B56BB8E00B175DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4378B4431B56BB8E00B175DE /* RLYApplicationSettingsCommandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLYApplicationSettingsCommandTests.m; sourceTree = "<group>"; };
+		4378B44F1B56BCF000B175DE /* RLYANCSNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYANCSNotification.h; sourceTree = "<group>"; };
+		4378B4501B56BCF000B175DE /* RLYANCSNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYANCSNotification.m; sourceTree = "<group>"; };
+		4378B4631B56BCF000B175DE /* RLYFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYFunctions.h; sourceTree = "<group>"; };
+		4378B4641B56BCF000B175DE /* RLYFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYFunctions.m; sourceTree = "<group>"; };
+		4378B46D1B56BCF000B175DE /* RLYObservers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYObservers.h; sourceTree = "<group>"; };
+		4378B46E1B56BCF000B175DE /* RLYObservers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYObservers.m; sourceTree = "<group>"; };
+		4378B46F1B56BCF000B175DE /* RLYPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheral.h; sourceTree = "<group>"; };
+		4378B4701B56BCF000B175DE /* RLYPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYPeripheral.m; sourceTree = "<group>"; };
+		4378B4711B56BCF000B175DE /* RLYPeripheral+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLYPeripheral+Internal.h"; sourceTree = "<group>"; };
+		4378B4721B56BCF000B175DE /* RLYCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYCentral.h; sourceTree = "<group>"; };
+		4378B4731B56BCF000B175DE /* RLYCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYCentral.m; sourceTree = "<group>"; };
+		4378B4781B56BCF000B175DE /* RLYUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYUUID.h; sourceTree = "<group>"; };
+		4378B4791B56BCF000B175DE /* RLYUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYUUID.m; sourceTree = "<group>"; };
+		4378B4AF1B56BDAA00B175DE /* RinglyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RinglyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4378B4B91B56BDAA00B175DE /* RinglyKit-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RinglyKit-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437CF0B21BFF805800B9E9B8 /* RLYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYColor.h; sourceTree = "<group>"; };
+		437CF0B31BFF805800B9E9B8 /* RLYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYColor.m; sourceTree = "<group>"; };
+		437CF0B81BFF811A00B9E9B8 /* RLYVibration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYVibration.h; sourceTree = "<group>"; };
+		437CF0B91BFF811A00B9E9B8 /* RLYVibration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYVibration.m; sourceTree = "<group>"; };
+		438ABE5E1BCEA8440039FE39 /* RLYContactsModeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYContactsModeCommand.h; sourceTree = "<group>"; };
+		438ABE5F1BCEA8440039FE39 /* RLYContactsModeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYContactsModeCommand.m; sourceTree = "<group>"; };
+		4391B85D1C9236D9003A8826 /* RLYCentralDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYCentralDiscovery.h; sourceTree = "<group>"; };
+		4391B85E1C9236D9003A8826 /* RLYCentralDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYCentralDiscovery.m; sourceTree = "<group>"; };
+		4391B8631C92375F003A8826 /* RLYCentralDiscovery+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RLYCentralDiscovery+Internal.h"; sourceTree = "<group>"; };
+		4393C1461BF391DC000AC4F2 /* RLYPeripheralObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralObserver.h; sourceTree = "<group>"; };
+		4393C1491BF39724000AC4F2 /* RLYPeripheralEnumerations+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RLYPeripheralEnumerations+Internal.h"; sourceTree = "<group>"; };
+		439C202A1D9C45ED00E333A2 /* RLYKnownHardwareVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYKnownHardwareVersion.h; sourceTree = "<group>"; };
+		439C202B1D9C45ED00E333A2 /* RLYKnownHardwareVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYKnownHardwareVersion.m; sourceTree = "<group>"; };
+		43A0948B1C600AAA00159B70 /* RLYColorBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYColorBehavior.h; sourceTree = "<group>"; };
+		43A0948C1C600AAA00159B70 /* RLYColorBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYColorBehavior.m; sourceTree = "<group>"; };
+		43A094911C600AE800159B70 /* RLYVibrationBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYVibrationBehavior.h; sourceTree = "<group>"; };
+		43A094921C600AE800159B70 /* RLYVibrationBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYVibrationBehavior.m; sourceTree = "<group>"; };
+		43A3236E1BBB25F900F3BBEF /* RLYCentral+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLYCentral+Internal.h"; sourceTree = "<group>"; };
+		43B0CC221BBD5AE30003F4F0 /* RLYAdvertisingNameCommandTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYAdvertisingNameCommandTests.m; sourceTree = "<group>"; };
+		43B0CC251BBD5BDA0003F4F0 /* RLYPeripheralCharacteristicsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYPeripheralCharacteristicsTests.m; sourceTree = "<group>"; };
+		43B606CE1BBC245100D9B638 /* RLYPeripheralServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralServices.h; sourceTree = "<group>"; };
+		43B606CF1BBC245100D9B638 /* RLYPeripheralServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYPeripheralServices.m; sourceTree = "<group>"; };
+		43B606D41BBC246800D9B638 /* RLYPeripheralCharacteristics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralCharacteristics.h; sourceTree = "<group>"; };
+		43B606DB1BBC281B00D9B638 /* RLYPeripheralError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralError.h; sourceTree = "<group>"; };
+		43B606E21BBC383600D9B638 /* RLYANCSV1Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYANCSV1Parser.h; sourceTree = "<group>"; };
+		43B606E31BBC383600D9B638 /* RLYANCSV1Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYANCSV1Parser.m; sourceTree = "<group>"; };
+		43B606EC1BBC48B400D9B638 /* RLYAdvertisingNameCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYAdvertisingNameCommand.h; sourceTree = "<group>"; };
+		43B606ED1BBC48B400D9B638 /* RLYAdvertisingNameCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYAdvertisingNameCommand.m; sourceTree = "<group>"; };
+		43B606EF1BBC48B400D9B638 /* RLYClearBondsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYClearBondsCommand.h; sourceTree = "<group>"; };
+		43B606F01BBC48B400D9B638 /* RLYClearBondsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYClearBondsCommand.m; sourceTree = "<group>"; };
+		43B606F11BBC48B400D9B638 /* RLYCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYCommand.h; sourceTree = "<group>"; };
+		43B606F21BBC48B400D9B638 /* RLYCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYCommand.m; sourceTree = "<group>"; };
+		43B606F31BBC48B400D9B638 /* RLYConnectionLEDCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYConnectionLEDCommand.h; sourceTree = "<group>"; };
+		43B606F41BBC48B400D9B638 /* RLYConnectionLEDCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYConnectionLEDCommand.m; sourceTree = "<group>"; };
+		43B606F51BBC48B400D9B638 /* RLYDateTimeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYDateTimeCommand.h; sourceTree = "<group>"; };
+		43B606F61BBC48B400D9B638 /* RLYDateTimeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYDateTimeCommand.m; sourceTree = "<group>"; };
+		43B606F71BBC48B400D9B638 /* RLYDeepSleepCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYDeepSleepCommand.h; sourceTree = "<group>"; };
+		43B606F81BBC48B400D9B638 /* RLYDeepSleepCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYDeepSleepCommand.m; sourceTree = "<group>"; };
+		43B606F91BBC48B400D9B638 /* RLYDFUCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYDFUCommand.h; sourceTree = "<group>"; };
+		43B606FA1BBC48B400D9B638 /* RLYDFUCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYDFUCommand.m; sourceTree = "<group>"; };
+		43B606FB1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYDisconnectVibrationCommand.h; sourceTree = "<group>"; };
+		43B606FC1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYDisconnectVibrationCommand.m; sourceTree = "<group>"; };
+		43B606FD1BBC48B400D9B638 /* RLYFirmwareResetCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYFirmwareResetCommand.h; sourceTree = "<group>"; };
+		43B606FE1BBC48B400D9B638 /* RLYFirmwareResetCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYFirmwareResetCommand.m; sourceTree = "<group>"; };
+		43B606FF1BBC48B400D9B638 /* RLYColorVibrationCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYColorVibrationCommand.h; sourceTree = "<group>"; };
+		43B607001BBC48B400D9B638 /* RLYColorVibrationCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYColorVibrationCommand.m; sourceTree = "<group>"; };
+		43B607011BBC48B400D9B638 /* RLYLoggingQueryCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYLoggingQueryCommand.h; sourceTree = "<group>"; };
+		43B607021BBC48B400D9B638 /* RLYLoggingQueryCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYLoggingQueryCommand.m; sourceTree = "<group>"; };
+		43B607031BBC48B400D9B638 /* RLYMobileOSCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYMobileOSCommand.h; sourceTree = "<group>"; };
+		43B607041BBC48B400D9B638 /* RLYMobileOSCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYMobileOSCommand.m; sourceTree = "<group>"; };
+		43B607071BBC48B400D9B638 /* RLYSleepModeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYSleepModeCommand.h; sourceTree = "<group>"; };
+		43B607081BBC48B400D9B638 /* RLYSleepModeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYSleepModeCommand.m; sourceTree = "<group>"; };
+		43B607091BBC48B400D9B638 /* RLYTapParametersCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYTapParametersCommand.h; sourceTree = "<group>"; };
+		43B6070A1BBC48B400D9B638 /* RLYTapParametersCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYTapParametersCommand.m; sourceTree = "<group>"; };
+		43B607491BBC4BC200D9B638 /* RLYApplicationSettingsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYApplicationSettingsCommand.h; sourceTree = "<group>"; };
+		43B6074A1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYApplicationSettingsCommand.m; sourceTree = "<group>"; };
+		43B6074F1BBC527500D9B638 /* RLYClearApplicationSettingsCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYClearApplicationSettingsCommand.h; sourceTree = "<group>"; };
+		43B607501BBC527500D9B638 /* RLYClearApplicationSettingsCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYClearApplicationSettingsCommand.m; sourceTree = "<group>"; };
+		43B664191BCEA9F100C4C2F4 /* RLYContactsModeCommandTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYContactsModeCommandTests.m; sourceTree = "<group>"; };
+		43CF79911BFBDC4C007145B7 /* RLYErrorFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYErrorFunctions.h; sourceTree = "<group>"; };
+		43CF79921BFBDC4C007145B7 /* RLYErrorFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYErrorFunctions.m; sourceTree = "<group>"; };
+		43CF79971BFBDE23007145B7 /* RLYVibrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYVibrationTests.m; sourceTree = "<group>"; };
+		43CF799A1BFBDF86007145B7 /* RLYObserversTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYObserversTests.m; sourceTree = "<group>"; };
+		43D251221BF3CA1E0022E4FD /* RLYDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYDefines.h; sourceTree = "<group>"; };
+		43D251301BF3E22A0022E4FD /* RLYDataStringFunctionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYDataStringFunctionsTests.m; sourceTree = "<group>"; };
+		43E079091CD14B540083FA36 /* RLYRecoveryPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYRecoveryPeripheral.h; sourceTree = "<group>"; };
+		43E0790A1CD14B540083FA36 /* RLYRecoveryPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYRecoveryPeripheral.m; sourceTree = "<group>"; };
+		43E0790F1CD14B730083FA36 /* RLYRecoveryPeripheral+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLYRecoveryPeripheral+Internal.h"; sourceTree = "<group>"; };
+		43E500171BDA7AD400C7D7CB /* RLYANCSTimeoutAlertCommandTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYANCSTimeoutAlertCommandTests.m; sourceTree = "<group>"; };
+		43E5001A1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYConnectionLEDResponseCommand.h; sourceTree = "<group>"; };
+		43E5001B1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYConnectionLEDResponseCommand.m; sourceTree = "<group>"; };
+		43E500201BDA7DDF00C7D7CB /* RLYConnectionLEDResponseCommandTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYConnectionLEDResponseCommandTests.m; sourceTree = "<group>"; };
+		43F6E0EE1C5FABCD000AAB22 /* RLYPeripheralValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralValidation.h; sourceTree = "<group>"; };
+		43F6E0F11C5FAF2D000AAB22 /* RLYPeripheralConnectionInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralConnectionInformation.h; sourceTree = "<group>"; };
+		43F6E0F41C5FAFBD000AAB22 /* RLYPeripheralConfigurationHashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralConfigurationHashing.h; sourceTree = "<group>"; };
+		43F6E0F71C5FB1DA000AAB22 /* RLYPeripheralReading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralReading.h; sourceTree = "<group>"; };
+		43F6E0FA1C5FB252000AAB22 /* RLYPeripheralWriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralWriting.h; sourceTree = "<group>"; };
+		43F6E0FD1C5FB2BB000AAB22 /* RLYPeripheralANCSNotificationModeInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYPeripheralANCSNotificationModeInformation.h; sourceTree = "<group>"; };
+		43F6E1001C5FC046000AAB22 /* RLYCentralObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYCentralObserver.h; sourceTree = "<group>"; };
+		43FEB59D1CF64828006614CC /* RLYSettingsCommandMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLYSettingsCommandMode.h; sourceTree = "<group>"; };
+		43FEB5A01CF64915006614CC /* RLYSettingsCommandMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLYSettingsCommandMode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4378B42D1B56BB8E00B175DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378B4391B56BB8E00B175DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4378B43D1B56BB8E00B175DE /* RinglyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378B4AB1B56BDAA00B175DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378B4B61B56BDAA00B175DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4378B4BA1B56BDAA00B175DE /* RinglyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433F9AFD1BE12AE1000E9910 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				43E500171BDA7AD400C7D7CB /* RLYANCSTimeoutAlertCommandTests.m */,
+				43B0CC221BBD5AE30003F4F0 /* RLYAdvertisingNameCommandTests.m */,
+				4378B4431B56BB8E00B175DE /* RLYApplicationSettingsCommandTests.m */,
+				43E500201BDA7DDF00C7D7CB /* RLYConnectionLEDResponseCommandTests.m */,
+				43B664191BCEA9F100C4C2F4 /* RLYContactsModeCommandTests.m */,
+				436C96AC1BBC6216005A9EB0 /* RLYContactsSettingsCommandTests.m */,
+				435A2C231C1F21A200DB2858 /* RLYNoActionCommandTests.m */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+		435A2C2A1C2099CF00DB2858 /* Keyframes */ = {
+			isa = PBXGroup;
+			children = (
+				435A2C261C2099CB00DB2858 /* RLYColorKeyframe.h */,
+				435A2C271C2099CB00DB2858 /* RLYColorKeyframe.m */,
+				435A2C2B1C209B7900DB2858 /* RLYVibrationKeyframe.h */,
+				435A2C2C1C209B7900DB2858 /* RLYVibrationKeyframe.m */,
+			);
+			name = Keyframes;
+			sourceTree = "<group>";
+		};
+		436C96A21BBC605B005A9EB0 /* Notification Settings */ = {
+			isa = PBXGroup;
+			children = (
+				43B607491BBC4BC200D9B638 /* RLYApplicationSettingsCommand.h */,
+				43B6074A1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.m */,
+				43B6074F1BBC527500D9B638 /* RLYClearApplicationSettingsCommand.h */,
+				43B607501BBC527500D9B638 /* RLYClearApplicationSettingsCommand.m */,
+				438ABE5E1BCEA8440039FE39 /* RLYContactsModeCommand.h */,
+				438ABE5F1BCEA8440039FE39 /* RLYContactsModeCommand.m */,
+				436C96A61BBC60FB005A9EB0 /* RLYContactSettingsCommand.h */,
+				436C96A71BBC60FB005A9EB0 /* RLYContactSettingsCommand.m */,
+				436C96AF1BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.h */,
+				436C96B01BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.m */,
+				43FEB59D1CF64828006614CC /* RLYSettingsCommandMode.h */,
+				43FEB5A01CF64915006614CC /* RLYSettingsCommandMode.m */,
+			);
+			name = "Notification Settings";
+			sourceTree = "<group>";
+		};
+		436C96A31BBC6073005A9EB0 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				43B606F31BBC48B400D9B638 /* RLYConnectionLEDCommand.h */,
+				43B606F41BBC48B400D9B638 /* RLYConnectionLEDCommand.m */,
+				43B606FB1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.h */,
+				43B606FC1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.m */,
+				43B607071BBC48B400D9B638 /* RLYSleepModeCommand.h */,
+				43B607081BBC48B400D9B638 /* RLYSleepModeCommand.m */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		436C96A41BBC6093005A9EB0 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				43B606EF1BBC48B400D9B638 /* RLYClearBondsCommand.h */,
+				43B606F01BBC48B400D9B638 /* RLYClearBondsCommand.m */,
+				43B606FF1BBC48B400D9B638 /* RLYColorVibrationCommand.h */,
+				43B607001BBC48B400D9B638 /* RLYColorVibrationCommand.m */,
+				43B606F71BBC48B400D9B638 /* RLYDeepSleepCommand.h */,
+				43B606F81BBC48B400D9B638 /* RLYDeepSleepCommand.m */,
+				43B606F91BBC48B400D9B638 /* RLYDFUCommand.h */,
+				43B606FA1BBC48B400D9B638 /* RLYDFUCommand.m */,
+				43B606FD1BBC48B400D9B638 /* RLYFirmwareResetCommand.h */,
+				43B606FE1BBC48B400D9B638 /* RLYFirmwareResetCommand.m */,
+				435A2C391C20A23C00DB2858 /* RLYKeyframeCommand.h */,
+				435A2C3A1C20A23C00DB2858 /* RLYKeyframeCommand.m */,
+				43B607011BBC48B400D9B638 /* RLYLoggingQueryCommand.h */,
+				43B607021BBC48B400D9B638 /* RLYLoggingQueryCommand.m */,
+				435A2C1D1C1F20A400DB2858 /* RLYNoActionCommand.h */,
+				435A2C1E1C1F20A400DB2858 /* RLYNoActionCommand.m */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		436C96A51BBC60AB005A9EB0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				4346EFDE1BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.h */,
+				4346EFDF1BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.m */,
+				43B606EC1BBC48B400D9B638 /* RLYAdvertisingNameCommand.h */,
+				43B606ED1BBC48B400D9B638 /* RLYAdvertisingNameCommand.m */,
+				43E5001A1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.h */,
+				43E5001B1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.m */,
+				43B606F51BBC48B400D9B638 /* RLYDateTimeCommand.h */,
+				43B606F61BBC48B400D9B638 /* RLYDateTimeCommand.m */,
+				43B607031BBC48B400D9B638 /* RLYMobileOSCommand.h */,
+				43B607041BBC48B400D9B638 /* RLYMobileOSCommand.m */,
+				43B607091BBC48B400D9B638 /* RLYTapParametersCommand.h */,
+				43B6070A1BBC48B400D9B638 /* RLYTapParametersCommand.m */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		436D2CDC1C5F944B009E0AB3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				43F6E0FD1C5FB2BB000AAB22 /* RLYPeripheralANCSNotificationModeInformation.h */,
+				437578731CBD4A1B00243662 /* RLYPeripheralActivityTracking.h */,
+				436D2CDD1C5F94E0009E0AB3 /* RLYPeripheralBatteryInformation.h */,
+				43F6E0F41C5FAFBD000AAB22 /* RLYPeripheralConfigurationHashing.h */,
+				43F6E0F11C5FAF2D000AAB22 /* RLYPeripheralConnectionInformation.h */,
+				436D2CD61C5F92DB009E0AB3 /* RLYPeripheralDeviceInformation.h */,
+				435CF8131E01D96B004E5352 /* RLYPeripheralLogging.h */,
+				436D2CD91C5F943E009E0AB3 /* RLYPeripheralObservation.h */,
+				43F6E0F71C5FB1DA000AAB22 /* RLYPeripheralReading.h */,
+				43F6E0EE1C5FABCD000AAB22 /* RLYPeripheralValidation.h */,
+				43F6E0FA1C5FB252000AAB22 /* RLYPeripheralWriting.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		4375784E1CBD39E000243662 /* Characteristics */ = {
+			isa = PBXGroup;
+			children = (
+				43B606D41BBC246800D9B638 /* RLYPeripheralCharacteristics.h */,
+				4375786D1CBD400100243662 /* RLYPeripheralActivityCharacteristics.h */,
+				4375786E1CBD400100243662 /* RLYPeripheralActivityCharacteristics.m */,
+				4375785B1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.h */,
+				4375785C1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.m */,
+				437578551CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.h */,
+				437578561CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.m */,
+				437578611CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.h */,
+				437578621CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.m */,
+				4375784F1CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.h */,
+				437578501CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.m */,
+			);
+			name = Characteristics;
+			sourceTree = "<group>";
+		};
+		437578761CBD699A00243662 /* Activity Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				4375787D1CBD69CE00243662 /* RLYActivityTrackingDate.h */,
+				4375787E1CBD69CE00243662 /* RLYActivityTrackingDate.m */,
+				437578771CBD69B400243662 /* RLYActivityTrackingUpdate.h */,
+				437578931CBDAAEC00243662 /* RLYActivityTrackingUpdate+Internal.h */,
+				437578781CBD69B400243662 /* RLYActivityTrackingUpdate.m */,
+			);
+			name = "Activity Tracking";
+			sourceTree = "<group>";
+		};
+		437578891CBD7DB100243662 /* Activity Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				4375788A1CBD7DCC00243662 /* RLYActivityTrackingDateTests.m */,
+				437578991CBE7BCA00243662 /* RLYActivityTrackingUpdateTests.m */,
+			);
+			name = "Activity Tracking";
+			sourceTree = "<group>";
+		};
+		4378B4271B56BB8E00B175DE = {
+			isa = PBXGroup;
+			children = (
+				4378B4331B56BB8E00B175DE /* RinglyKit */,
+				4378B4401B56BB8E00B175DE /* RinglyKitTests */,
+				4378B4321B56BB8E00B175DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4378B4321B56BB8E00B175DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4378B4311B56BB8E00B175DE /* RinglyKit.framework */,
+				4378B43C1B56BB8E00B175DE /* RinglyKitTests.xctest */,
+				4378B4AF1B56BDAA00B175DE /* RinglyKit.framework */,
+				4378B4B91B56BDAA00B175DE /* RinglyKit-MacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4378B4331B56BB8E00B175DE /* RinglyKit */ = {
+			isa = PBXGroup;
+			children = (
+				4378B4361B56BB8E00B175DE /* RinglyKit.h */,
+				43B606E11BBC382700D9B638 /* ANCS */,
+				437578761CBD699A00243662 /* Activity Tracking */,
+				43B606EB1BBC429700D9B638 /* Central */,
+				4378B4A71B56BD1700B175DE /* Commands */,
+				437CF0AB1BFF801000B9E9B8 /* Colors and Vibrations */,
+				43B606DA1BBC280D00D9B638 /* Errors */,
+				4378B4A91B56BD4D00B175DE /* Peripherals */,
+				43E079081CD14B3D0083FA36 /* Recovery Peripherals */,
+				4378B4A81B56BD3B00B175DE /* Utilities */,
+				4378B4341B56BB8E00B175DE /* Supporting Files */,
+			);
+			path = RinglyKit;
+			sourceTree = "<group>";
+		};
+		4378B4341B56BB8E00B175DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4378B4351B56BB8E00B175DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4378B4401B56BB8E00B175DE /* RinglyKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				43D251331BF3E2310022E4FD /* ANCS */,
+				437578891CBD7DB100243662 /* Activity Tracking */,
+				433F9AFD1BE12AE1000E9910 /* Commands */,
+				43D251341BF3E23B0022E4FD /* Functions */,
+				433A66BB1BFE3C6E00E80DAF /* RLYFunctionsTests.m */,
+				43B0CC251BBD5BDA0003F4F0 /* RLYPeripheralCharacteristicsTests.m */,
+				43CF79971BFBDE23007145B7 /* RLYVibrationTests.m */,
+				43CF799A1BFBDF86007145B7 /* RLYObserversTests.m */,
+				4378B4411B56BB8E00B175DE /* Supporting Files */,
+			);
+			path = RinglyKitTests;
+			sourceTree = "<group>";
+		};
+		4378B4411B56BB8E00B175DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4378B4421B56BB8E00B175DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4378B4A71B56BD1700B175DE /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				43B606F11BBC48B400D9B638 /* RLYCommand.h */,
+				435A2C361C209D4A00DB2858 /* RLYCommand+Internal.h */,
+				43B606F21BBC48B400D9B638 /* RLYCommand.m */,
+				436C96A41BBC6093005A9EB0 /* Actions */,
+				436C96A51BBC60AB005A9EB0 /* Configuration */,
+				436C96A21BBC605B005A9EB0 /* Notification Settings */,
+				436C96A31BBC6073005A9EB0 /* Preferences */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+		4378B4A81B56BD3B00B175DE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				43A0948A1C600A8100159B70 /* Color & Vibration Behavior */,
+				435A2C2A1C2099CF00DB2858 /* Keyframes */,
+				43D251221BF3CA1E0022E4FD /* RLYDefines.h */,
+				43144EC61C1A18800015E900 /* RLYDefines+Internal.h */,
+				4378B4631B56BCF000B175DE /* RLYFunctions.h */,
+				4378B4641B56BCF000B175DE /* RLYFunctions.m */,
+				4321D5AB1BAB3E25000C4A68 /* RLYLogFunction.h */,
+				4321D5AC1BAB3E25000C4A68 /* RLYLogFunction.m */,
+				4378B46D1B56BCF000B175DE /* RLYObservers.h */,
+				4378B46E1B56BCF000B175DE /* RLYObservers.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		4378B4A91B56BD4D00B175DE /* Peripherals */ = {
+			isa = PBXGroup;
+			children = (
+				4375784E1CBD39E000243662 /* Characteristics */,
+				436D2CDC1C5F944B009E0AB3 /* Protocols */,
+				43BDE5C61CE52E64005369A9 /* Utilities */,
+				4378B46F1B56BCF000B175DE /* RLYPeripheral.h */,
+				4378B4701B56BCF000B175DE /* RLYPeripheral.m */,
+				4378B4711B56BCF000B175DE /* RLYPeripheral+Internal.h */,
+			);
+			name = Peripherals;
+			sourceTree = "<group>";
+		};
+		437CF0AB1BFF801000B9E9B8 /* Colors and Vibrations */ = {
+			isa = PBXGroup;
+			children = (
+				437CF0B21BFF805800B9E9B8 /* RLYColor.h */,
+				437CF0B31BFF805800B9E9B8 /* RLYColor.m */,
+				437CF0B81BFF811A00B9E9B8 /* RLYVibration.h */,
+				437CF0B91BFF811A00B9E9B8 /* RLYVibration.m */,
+			);
+			name = "Colors and Vibrations";
+			sourceTree = "<group>";
+		};
+		43A0948A1C600A8100159B70 /* Color & Vibration Behavior */ = {
+			isa = PBXGroup;
+			children = (
+				43A0948B1C600AAA00159B70 /* RLYColorBehavior.h */,
+				43A0948C1C600AAA00159B70 /* RLYColorBehavior.m */,
+				43A094911C600AE800159B70 /* RLYVibrationBehavior.h */,
+				43A094921C600AE800159B70 /* RLYVibrationBehavior.m */,
+			);
+			name = "Color & Vibration Behavior";
+			sourceTree = "<group>";
+		};
+		43B606DA1BBC280D00D9B638 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				43CF79911BFBDC4C007145B7 /* RLYErrorFunctions.h */,
+				43CF79921BFBDC4C007145B7 /* RLYErrorFunctions.m */,
+				435FECA51BE15E85001746E1 /* RLYANCSV1Error.h */,
+				433F9AFF1BE12D77000E9910 /* RLYANCSV2Error.h */,
+				4375788D1CBDA5FC00243662 /* RLYActivityTrackingDateError.h */,
+				437578961CBDAEAA00243662 /* RLYActivityTrackingUpdateError.h */,
+				43B606DB1BBC281B00D9B638 /* RLYPeripheralError.h */,
+			);
+			name = Errors;
+			sourceTree = "<group>";
+		};
+		43B606E11BBC382700D9B638 /* ANCS */ = {
+			isa = PBXGroup;
+			children = (
+				4378B44F1B56BCF000B175DE /* RLYANCSNotification.h */,
+				4378B4501B56BCF000B175DE /* RLYANCSNotification.m */,
+				435FECB01BE28795001746E1 /* RLYANCSNotificationFlags.h */,
+				435FECB11BE28795001746E1 /* RLYANCSNotificationFlags.m */,
+				43B606E21BBC383600D9B638 /* RLYANCSV1Parser.h */,
+				43B606E31BBC383600D9B638 /* RLYANCSV1Parser.m */,
+				433F9AF31BE1244B000E9910 /* RLYANCSV2Parser.h */,
+				433F9AF41BE1244B000E9910 /* RLYANCSV2Parser.m */,
+			);
+			name = ANCS;
+			sourceTree = "<group>";
+		};
+		43B606EB1BBC429700D9B638 /* Central */ = {
+			isa = PBXGroup;
+			children = (
+				4378B4721B56BCF000B175DE /* RLYCentral.h */,
+				43A3236E1BBB25F900F3BBEF /* RLYCentral+Internal.h */,
+				43F6E1001C5FC046000AAB22 /* RLYCentralObserver.h */,
+				4378B4731B56BCF000B175DE /* RLYCentral.m */,
+				4391B85D1C9236D9003A8826 /* RLYCentralDiscovery.h */,
+				4391B8631C92375F003A8826 /* RLYCentralDiscovery+Internal.h */,
+				4391B85E1C9236D9003A8826 /* RLYCentralDiscovery.m */,
+			);
+			name = Central;
+			sourceTree = "<group>";
+		};
+		43BDE5C61CE52E64005369A9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				431C11A01BD7F83E0081CB04 /* RLYPeripheralEnumerations.h */,
+				4393C1491BF39724000AC4F2 /* RLYPeripheralEnumerations+Internal.h */,
+				431C11A11BD7F8650081CB04 /* RLYPeripheralEnumerations.m */,
+				4393C1461BF391DC000AC4F2 /* RLYPeripheralObserver.h */,
+				43B606CE1BBC245100D9B638 /* RLYPeripheralServices.h */,
+				43B606CF1BBC245100D9B638 /* RLYPeripheralServices.m */,
+				4378B4781B56BCF000B175DE /* RLYUUID.h */,
+				4378B4791B56BCF000B175DE /* RLYUUID.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		43D251331BF3E2310022E4FD /* ANCS */ = {
+			isa = PBXGroup;
+			children = (
+				435FECAB1BE15FB6001746E1 /* RLYANCSV1ParserTests.m */,
+				433F9AFA1BE12A0C000E9910 /* RLYANCSV2ParserTests.m */,
+			);
+			name = ANCS;
+			sourceTree = "<group>";
+		};
+		43D251341BF3E23B0022E4FD /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				43D251301BF3E22A0022E4FD /* RLYDataStringFunctionsTests.m */,
+				431C119D1BD7EAD70081CB04 /* RLYStringFittingTests.m */,
+			);
+			name = Functions;
+			sourceTree = "<group>";
+		};
+		43E079081CD14B3D0083FA36 /* Recovery Peripherals */ = {
+			isa = PBXGroup;
+			children = (
+				439C202A1D9C45ED00E333A2 /* RLYKnownHardwareVersion.h */,
+				439C202B1D9C45ED00E333A2 /* RLYKnownHardwareVersion.m */,
+				43E079091CD14B540083FA36 /* RLYRecoveryPeripheral.h */,
+				43E0790F1CD14B730083FA36 /* RLYRecoveryPeripheral+Internal.h */,
+				43E0790A1CD14B540083FA36 /* RLYRecoveryPeripheral.m */,
+			);
+			name = "Recovery Peripherals";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4378B42E1B56BB8E00B175DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B6071D1BBC48B400D9B638 /* RLYDateTimeCommand.h in Headers */,
+				43A094931C600AE800159B70 /* RLYVibrationBehavior.h in Headers */,
+				43CF79931BFBDC4C007145B7 /* RLYErrorFunctions.h in Headers */,
+				435A2C3B1C20A23C00DB2858 /* RLYKeyframeCommand.h in Headers */,
+				43B607251BBC48B400D9B638 /* RLYDFUCommand.h in Headers */,
+				4346EFE01BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.h in Headers */,
+				437CF0BA1BFF811A00B9E9B8 /* RLYVibration.h in Headers */,
+				437578971CBDAEAA00243662 /* RLYActivityTrackingUpdateError.h in Headers */,
+				43F6E1011C5FC046000AAB22 /* RLYCentralObserver.h in Headers */,
+				43F6E0F21C5FAF2D000AAB22 /* RLYPeripheralConnectionInformation.h in Headers */,
+				436C96B11BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.h in Headers */,
+				43A3236F1BBB25F900F3BBEF /* RLYCentral+Internal.h in Headers */,
+				4378B47C1B56BCF000B175DE /* RLYANCSNotification.h in Headers */,
+				43B606E41BBC383600D9B638 /* RLYANCSV1Parser.h in Headers */,
+				4378B49A1B56BCF000B175DE /* RLYObservers.h in Headers */,
+				4391B85F1C9236D9003A8826 /* RLYCentralDiscovery.h in Headers */,
+				43F6E0F51C5FAFBD000AAB22 /* RLYPeripheralConfigurationHashing.h in Headers */,
+				437578951CBDAAFD00243662 /* RLYActivityTrackingUpdate+Internal.h in Headers */,
+				4378B49F1B56BCF000B175DE /* RLYCentral.h in Headers */,
+				4378B4A51B56BCF000B175DE /* RLYUUID.h in Headers */,
+				431C11A51BD7F8730081CB04 /* RLYPeripheralEnumerations.h in Headers */,
+				435A2C281C2099CB00DB2858 /* RLYColorKeyframe.h in Headers */,
+				436C96A81BBC60FB005A9EB0 /* RLYContactSettingsCommand.h in Headers */,
+				43B607411BBC48B400D9B638 /* RLYSleepModeCommand.h in Headers */,
+				43B6074B1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.h in Headers */,
+				438ABE601BCEA8440039FE39 /* RLYContactsModeCommand.h in Headers */,
+				437578791CBD69B400243662 /* RLYActivityTrackingUpdate.h in Headers */,
+				437578571CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.h in Headers */,
+				435A2C371C209D4A00DB2858 /* RLYCommand+Internal.h in Headers */,
+				4378B49C1B56BCF000B175DE /* RLYPeripheral.h in Headers */,
+				43F6E0EF1C5FABCD000AAB22 /* RLYPeripheralValidation.h in Headers */,
+				4378B4371B56BB8E00B175DE /* RinglyKit.h in Headers */,
+				43B606D61BBC246800D9B638 /* RLYPeripheralCharacteristics.h in Headers */,
+				43B607191BBC48B400D9B638 /* RLYConnectionLEDCommand.h in Headers */,
+				43B607151BBC48B400D9B638 /* RLYCommand.h in Headers */,
+				4375786F1CBD400100243662 /* RLYPeripheralActivityCharacteristics.h in Headers */,
+				439C202C1D9C45ED00E333A2 /* RLYKnownHardwareVersion.h in Headers */,
+				436D2CDA1C5F943E009E0AB3 /* RLYPeripheralObservation.h in Headers */,
+				437578631CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.h in Headers */,
+				43B607211BBC48B400D9B638 /* RLYDeepSleepCommand.h in Headers */,
+				4378B49E1B56BCF000B175DE /* RLYPeripheral+Internal.h in Headers */,
+				435CF8141E01D96B004E5352 /* RLYPeripheralLogging.h in Headers */,
+				43B606DD1BBC281B00D9B638 /* RLYPeripheralError.h in Headers */,
+				43E5001C1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.h in Headers */,
+				4375785D1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.h in Headers */,
+				433F9B011BE12D77000E9910 /* RLYANCSV2Error.h in Headers */,
+				43F6E0F81C5FB1DA000AAB22 /* RLYPeripheralReading.h in Headers */,
+				43F6E0FB1C5FB252000AAB22 /* RLYPeripheralWriting.h in Headers */,
+				435A2C2D1C209B7900DB2858 /* RLYVibrationKeyframe.h in Headers */,
+				4393C14B1BF3972A000AC4F2 /* RLYPeripheralEnumerations+Internal.h in Headers */,
+				43FEB59E1CF64828006614CC /* RLYSettingsCommandMode.h in Headers */,
+				43A0948D1C600AAA00159B70 /* RLYColorBehavior.h in Headers */,
+				437578741CBD4A1B00243662 /* RLYPeripheralActivityTracking.h in Headers */,
+				43B607311BBC48B400D9B638 /* RLYColorVibrationCommand.h in Headers */,
+				43B6070B1BBC48B400D9B638 /* RLYAdvertisingNameCommand.h in Headers */,
+				43E079101CD14B730083FA36 /* RLYRecoveryPeripheral+Internal.h in Headers */,
+				437578511CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.h in Headers */,
+				43B606D01BBC245100D9B638 /* RLYPeripheralServices.h in Headers */,
+				4375788F1CBDA5FC00243662 /* RLYActivityTrackingDateError.h in Headers */,
+				43B607391BBC48B400D9B638 /* RLYMobileOSCommand.h in Headers */,
+				4378B4901B56BCF000B175DE /* RLYFunctions.h in Headers */,
+				436D2CD71C5F92DB009E0AB3 /* RLYPeripheralDeviceInformation.h in Headers */,
+				43B607291BBC48B400D9B638 /* RLYDisconnectVibrationCommand.h in Headers */,
+				433F9AF51BE1244B000E9910 /* RLYANCSV2Parser.h in Headers */,
+				435FECB21BE28795001746E1 /* RLYANCSNotificationFlags.h in Headers */,
+				43D251231BF3CA1E0022E4FD /* RLYDefines.h in Headers */,
+				4393C1471BF391DC000AC4F2 /* RLYPeripheralObserver.h in Headers */,
+				435A2C1F1C1F20A400DB2858 /* RLYNoActionCommand.h in Headers */,
+				43B607351BBC48B400D9B638 /* RLYLoggingQueryCommand.h in Headers */,
+				43B607451BBC48B400D9B638 /* RLYTapParametersCommand.h in Headers */,
+				43B607511BBC527500D9B638 /* RLYClearApplicationSettingsCommand.h in Headers */,
+				436D2CDE1C5F94E0009E0AB3 /* RLYPeripheralBatteryInformation.h in Headers */,
+				43E0790B1CD14B540083FA36 /* RLYRecoveryPeripheral.h in Headers */,
+				4375787F1CBD69CE00243662 /* RLYActivityTrackingDate.h in Headers */,
+				43F6E0FE1C5FB2BB000AAB22 /* RLYPeripheralANCSNotificationModeInformation.h in Headers */,
+				43B6072D1BBC48B400D9B638 /* RLYFirmwareResetCommand.h in Headers */,
+				4321D5AD1BAB3E25000C4A68 /* RLYLogFunction.h in Headers */,
+				43B607111BBC48B400D9B638 /* RLYClearBondsCommand.h in Headers */,
+				437CF0B41BFF805800B9E9B8 /* RLYColor.h in Headers */,
+				435FECA71BE15E85001746E1 /* RLYANCSV1Error.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378B4AC1B56BDAA00B175DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4378B4DF1B56BFC100B175DE /* RinglyKit.h in Headers */,
+				43A094941C600AE800159B70 /* RLYVibrationBehavior.h in Headers */,
+				43CF79941BFBDC4C007145B7 /* RLYErrorFunctions.h in Headers */,
+				435A2C3C1C20A23C00DB2858 /* RLYKeyframeCommand.h in Headers */,
+				435A2C321C209B8200DB2858 /* RLYColorKeyframe.h in Headers */,
+				43B6071E1BBC48B400D9B638 /* RLYDateTimeCommand.h in Headers */,
+				4346EFE11BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.h in Headers */,
+				437578981CBDAEAA00243662 /* RLYActivityTrackingUpdateError.h in Headers */,
+				43F6E1021C5FC046000AAB22 /* RLYCentralObserver.h in Headers */,
+				43F6E0F31C5FAF2D000AAB22 /* RLYPeripheralConnectionInformation.h in Headers */,
+				437CF0BB1BFF811A00B9E9B8 /* RLYVibration.h in Headers */,
+				436C96B21BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.h in Headers */,
+				43B607261BBC48B400D9B638 /* RLYDFUCommand.h in Headers */,
+				43A323701BBB25F900F3BBEF /* RLYCentral+Internal.h in Headers */,
+				4378B4E01B56BFC100B175DE /* RLYANCSNotification.h in Headers */,
+				4391B8601C9236D9003A8826 /* RLYCentralDiscovery.h in Headers */,
+				43F6E0F61C5FAFBD000AAB22 /* RLYPeripheralConfigurationHashing.h in Headers */,
+				437578941CBDAAFC00243662 /* RLYActivityTrackingUpdate+Internal.h in Headers */,
+				43B606E51BBC383600D9B638 /* RLYANCSV1Parser.h in Headers */,
+				4378B4E11B56BFC100B175DE /* RLYPeripheral.h in Headers */,
+				4378B4E21B56BFC200B175DE /* RLYPeripheral+Internal.h in Headers */,
+				431C11A41BD7F8720081CB04 /* RLYPeripheralEnumerations.h in Headers */,
+				436C96A91BBC60FB005A9EB0 /* RLYContactSettingsCommand.h in Headers */,
+				4378B4E31B56BFC200B175DE /* RLYCentral.h in Headers */,
+				43B6074C1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.h in Headers */,
+				438ABE611BCEA8440039FE39 /* RLYContactsModeCommand.h in Headers */,
+				4375787A1CBD69B400243662 /* RLYActivityTrackingUpdate.h in Headers */,
+				437578581CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.h in Headers */,
+				435A2C381C209D5000DB2858 /* RLYCommand+Internal.h in Headers */,
+				4378B4E41B56BFC200B175DE /* RLYUUID.h in Headers */,
+				43F6E0F01C5FABCD000AAB22 /* RLYPeripheralValidation.h in Headers */,
+				43B607421BBC48B400D9B638 /* RLYSleepModeCommand.h in Headers */,
+				43B606D71BBC246800D9B638 /* RLYPeripheralCharacteristics.h in Headers */,
+				43B6071A1BBC48B400D9B638 /* RLYConnectionLEDCommand.h in Headers */,
+				43B607161BBC48B400D9B638 /* RLYCommand.h in Headers */,
+				437578701CBD400100243662 /* RLYPeripheralActivityCharacteristics.h in Headers */,
+				439C202D1D9C45ED00E333A2 /* RLYKnownHardwareVersion.h in Headers */,
+				436D2CDB1C5F943E009E0AB3 /* RLYPeripheralObservation.h in Headers */,
+				437578641CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.h in Headers */,
+				43B607221BBC48B400D9B638 /* RLYDeepSleepCommand.h in Headers */,
+				43B606DE1BBC281B00D9B638 /* RLYPeripheralError.h in Headers */,
+				435CF8151E01D96B004E5352 /* RLYPeripheralLogging.h in Headers */,
+				43B607321BBC48B400D9B638 /* RLYColorVibrationCommand.h in Headers */,
+				43E5001D1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.h in Headers */,
+				4375785E1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.h in Headers */,
+				433F9B021BE12D77000E9910 /* RLYANCSV2Error.h in Headers */,
+				43F6E0F91C5FB1DA000AAB22 /* RLYPeripheralReading.h in Headers */,
+				43F6E0FC1C5FB252000AAB22 /* RLYPeripheralWriting.h in Headers */,
+				4393C14A1BF3972A000AC4F2 /* RLYPeripheralEnumerations+Internal.h in Headers */,
+				43B6070C1BBC48B400D9B638 /* RLYAdvertisingNameCommand.h in Headers */,
+				43FEB59F1CF64828006614CC /* RLYSettingsCommandMode.h in Headers */,
+				43A0948E1C600AAA00159B70 /* RLYColorBehavior.h in Headers */,
+				437578751CBD4A1B00243662 /* RLYPeripheralActivityTracking.h in Headers */,
+				43B606D11BBC245100D9B638 /* RLYPeripheralServices.h in Headers */,
+				43E079111CD14B730083FA36 /* RLYRecoveryPeripheral+Internal.h in Headers */,
+				437578521CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.h in Headers */,
+				43B6073A1BBC48B400D9B638 /* RLYMobileOSCommand.h in Headers */,
+				43B6072A1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.h in Headers */,
+				437578901CBDA5FC00243662 /* RLYActivityTrackingDateError.h in Headers */,
+				43B607361BBC48B400D9B638 /* RLYLoggingQueryCommand.h in Headers */,
+				43B607461BBC48B400D9B638 /* RLYTapParametersCommand.h in Headers */,
+				436D2CD81C5F92DB009E0AB3 /* RLYPeripheralDeviceInformation.h in Headers */,
+				433F9AF61BE1244B000E9910 /* RLYANCSV2Parser.h in Headers */,
+				4378B4F41B56BFC200B175DE /* RLYFunctions.h in Headers */,
+				435A2C2E1C209B7900DB2858 /* RLYVibrationKeyframe.h in Headers */,
+				435FECB31BE28795001746E1 /* RLYANCSNotificationFlags.h in Headers */,
+				43D251241BF3CA1E0022E4FD /* RLYDefines.h in Headers */,
+				4393C1481BF391DC000AC4F2 /* RLYPeripheralObserver.h in Headers */,
+				435A2C201C1F20A400DB2858 /* RLYNoActionCommand.h in Headers */,
+				43B6072E1BBC48B400D9B638 /* RLYFirmwareResetCommand.h in Headers */,
+				4321D5AE1BAB3E25000C4A68 /* RLYLogFunction.h in Headers */,
+				436D2CDF1C5F94E0009E0AB3 /* RLYPeripheralBatteryInformation.h in Headers */,
+				43E0790C1CD14B540083FA36 /* RLYRecoveryPeripheral.h in Headers */,
+				437578801CBD69CE00243662 /* RLYActivityTrackingDate.h in Headers */,
+				43F6E0FF1C5FB2BB000AAB22 /* RLYPeripheralANCSNotificationModeInformation.h in Headers */,
+				43B607521BBC527500D9B638 /* RLYClearApplicationSettingsCommand.h in Headers */,
+				4378B4F61B56BFC200B175DE /* RLYObservers.h in Headers */,
+				43B607121BBC48B400D9B638 /* RLYClearBondsCommand.h in Headers */,
+				437CF0B51BFF805800B9E9B8 /* RLYColor.h in Headers */,
+				435FECA81BE15E85001746E1 /* RLYANCSV1Error.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4378B4301B56BB8E00B175DE /* RinglyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4378B4471B56BB8E00B175DE /* Build configuration list for PBXNativeTarget "RinglyKit" */;
+			buildPhases = (
+				4378B42C1B56BB8E00B175DE /* Sources */,
+				4378B42D1B56BB8E00B175DE /* Frameworks */,
+				4378B42E1B56BB8E00B175DE /* Headers */,
+				4378B42F1B56BB8E00B175DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RinglyKit;
+			productName = RinglyKit;
+			productReference = 4378B4311B56BB8E00B175DE /* RinglyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4378B43B1B56BB8E00B175DE /* RinglyKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4378B44A1B56BB8E00B175DE /* Build configuration list for PBXNativeTarget "RinglyKitTests" */;
+			buildPhases = (
+				4378B4381B56BB8E00B175DE /* Sources */,
+				4378B4391B56BB8E00B175DE /* Frameworks */,
+				4378B43A1B56BB8E00B175DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4378B43F1B56BB8E00B175DE /* PBXTargetDependency */,
+			);
+			name = RinglyKitTests;
+			productName = RinglyKitTests;
+			productReference = 4378B43C1B56BB8E00B175DE /* RinglyKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4378B4AE1B56BDAA00B175DE /* RinglyKit-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4378B4C21B56BDAA00B175DE /* Build configuration list for PBXNativeTarget "RinglyKit-Mac" */;
+			buildPhases = (
+				4378B4AA1B56BDAA00B175DE /* Sources */,
+				4378B4AB1B56BDAA00B175DE /* Frameworks */,
+				4378B4AC1B56BDAA00B175DE /* Headers */,
+				4378B4AD1B56BDAA00B175DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RinglyKit-Mac";
+			productName = "RinglyKit-Mac";
+			productReference = 4378B4AF1B56BDAA00B175DE /* RinglyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4378B4B81B56BDAA00B175DE /* RinglyKit-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4378B4C51B56BDAA00B175DE /* Build configuration list for PBXNativeTarget "RinglyKit-MacTests" */;
+			buildPhases = (
+				4378B4B51B56BDAA00B175DE /* Sources */,
+				4378B4B61B56BDAA00B175DE /* Frameworks */,
+				4378B4B71B56BDAA00B175DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4378B4BC1B56BDAA00B175DE /* PBXTargetDependency */,
+			);
+			name = "RinglyKit-MacTests";
+			productName = "RinglyKit-MacTests";
+			productReference = 4378B4B91B56BDAA00B175DE /* RinglyKit-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4378B4281B56BB8E00B175DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Ringly;
+				TargetAttributes = {
+					4378B4301B56BB8E00B175DE = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = P97VTTKZ62;
+						ProvisioningStyle = Automatic;
+					};
+					4378B43B1B56BB8E00B175DE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4378B4AE1B56BDAA00B175DE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4378B4B81B56BDAA00B175DE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 4378B42B1B56BB8E00B175DE /* Build configuration list for PBXProject "RinglyKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4378B4271B56BB8E00B175DE;
+			productRefGroup = 4378B4321B56BB8E00B175DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4378B4301B56BB8E00B175DE /* RinglyKit */,
+				4378B43B1B56BB8E00B175DE /* RinglyKitTests */,
+				4378B4AE1B56BDAA00B175DE /* RinglyKit-Mac */,
+				4378B4B81B56BDAA00B175DE /* RinglyKit-MacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4378B42F1B56BB8E00B175DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378B43A1B56BB8E00B175DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378B4AD1B56BDAA00B175DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378B4B71B56BDAA00B175DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4378B42C1B56BB8E00B175DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431C11A21BD7F8650081CB04 /* RLYPeripheralEnumerations.m in Sources */,
+				4378B4A61B56BCF000B175DE /* RLYUUID.m in Sources */,
+				4378B49D1B56BCF000B175DE /* RLYPeripheral.m in Sources */,
+				435A2C3D1C20A23C00DB2858 /* RLYKeyframeCommand.m in Sources */,
+				43B607471BBC48B400D9B638 /* RLYTapParametersCommand.m in Sources */,
+				4375785F1CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.m in Sources */,
+				437578651CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.m in Sources */,
+				43E5001E1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.m in Sources */,
+				436C96B31BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.m in Sources */,
+				43A0948F1C600AAA00159B70 /* RLYColorBehavior.m in Sources */,
+				4321D5AF1BAB3E25000C4A68 /* RLYLogFunction.m in Sources */,
+				43B607171BBC48B400D9B638 /* RLYCommand.m in Sources */,
+				4378B49B1B56BCF000B175DE /* RLYObservers.m in Sources */,
+				436C96AA1BBC60FB005A9EB0 /* RLYContactSettingsCommand.m in Sources */,
+				43B6071B1BBC48B400D9B638 /* RLYConnectionLEDCommand.m in Sources */,
+				43E0790D1CD14B540083FA36 /* RLYRecoveryPeripheral.m in Sources */,
+				43B6072F1BBC48B400D9B638 /* RLYFirmwareResetCommand.m in Sources */,
+				437578531CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.m in Sources */,
+				43B6071F1BBC48B400D9B638 /* RLYDateTimeCommand.m in Sources */,
+				43FEB5A11CF64915006614CC /* RLYSettingsCommandMode.m in Sources */,
+				4391B8611C9236D9003A8826 /* RLYCentralDiscovery.m in Sources */,
+				438ABE621BCEA8440039FE39 /* RLYContactsModeCommand.m in Sources */,
+				439C202E1D9C45ED00E333A2 /* RLYKnownHardwareVersion.m in Sources */,
+				435A2C211C1F20A400DB2858 /* RLYNoActionCommand.m in Sources */,
+				433F9AF71BE1244B000E9910 /* RLYANCSV2Parser.m in Sources */,
+				43B606E61BBC383600D9B638 /* RLYANCSV1Parser.m in Sources */,
+				4378B47D1B56BCF000B175DE /* RLYANCSNotification.m in Sources */,
+				43B607271BBC48B400D9B638 /* RLYDFUCommand.m in Sources */,
+				43B607331BBC48B400D9B638 /* RLYColorVibrationCommand.m in Sources */,
+				43CF79951BFBDC4C007145B7 /* RLYErrorFunctions.m in Sources */,
+				437578711CBD400100243662 /* RLYPeripheralActivityCharacteristics.m in Sources */,
+				43B607131BBC48B400D9B638 /* RLYClearBondsCommand.m in Sources */,
+				437578811CBD69CE00243662 /* RLYActivityTrackingDate.m in Sources */,
+				43B6074D1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.m in Sources */,
+				4375787B1CBD69B400243662 /* RLYActivityTrackingUpdate.m in Sources */,
+				43B607371BBC48B400D9B638 /* RLYLoggingQueryCommand.m in Sources */,
+				435FECB41BE28795001746E1 /* RLYANCSNotificationFlags.m in Sources */,
+				437CF0B61BFF805800B9E9B8 /* RLYColor.m in Sources */,
+				43B606D21BBC245100D9B638 /* RLYPeripheralServices.m in Sources */,
+				435A2C2F1C209B7900DB2858 /* RLYVibrationKeyframe.m in Sources */,
+				43B607531BBC527500D9B638 /* RLYClearApplicationSettingsCommand.m in Sources */,
+				43B6070D1BBC48B400D9B638 /* RLYAdvertisingNameCommand.m in Sources */,
+				4378B4911B56BCF000B175DE /* RLYFunctions.m in Sources */,
+				43B6072B1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.m in Sources */,
+				43B607431BBC48B400D9B638 /* RLYSleepModeCommand.m in Sources */,
+				43A094951C600AE800159B70 /* RLYVibrationBehavior.m in Sources */,
+				437578591CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.m in Sources */,
+				4378B4A01B56BCF000B175DE /* RLYCentral.m in Sources */,
+				435A2C291C2099CB00DB2858 /* RLYColorKeyframe.m in Sources */,
+				4346EFE21BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.m in Sources */,
+				43B607231BBC48B400D9B638 /* RLYDeepSleepCommand.m in Sources */,
+				437CF0BC1BFF811A00B9E9B8 /* RLYVibration.m in Sources */,
+				43B6073B1BBC48B400D9B638 /* RLYMobileOSCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378B4381B56BB8E00B175DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435FECAC1BE15FB6001746E1 /* RLYANCSV1ParserTests.m in Sources */,
+				4375788B1CBD7DCC00243662 /* RLYActivityTrackingDateTests.m in Sources */,
+				43D251311BF3E22A0022E4FD /* RLYDataStringFunctionsTests.m in Sources */,
+				433F9AFB1BE12A0C000E9910 /* RLYANCSV2ParserTests.m in Sources */,
+				43E500211BDA7DDF00C7D7CB /* RLYConnectionLEDResponseCommandTests.m in Sources */,
+				431C119E1BD7EAD70081CB04 /* RLYStringFittingTests.m in Sources */,
+				435A2C241C1F21A200DB2858 /* RLYNoActionCommandTests.m in Sources */,
+				4378B4441B56BB8E00B175DE /* RLYApplicationSettingsCommandTests.m in Sources */,
+				43B6641A1BCEA9F100C4C2F4 /* RLYContactsModeCommandTests.m in Sources */,
+				43E500181BDA7AD400C7D7CB /* RLYANCSTimeoutAlertCommandTests.m in Sources */,
+				4375789A1CBE7BCA00243662 /* RLYActivityTrackingUpdateTests.m in Sources */,
+				436C96AD1BBC6216005A9EB0 /* RLYContactsSettingsCommandTests.m in Sources */,
+				43CF799B1BFBDF86007145B7 /* RLYObserversTests.m in Sources */,
+				43B0CC231BBD5AE30003F4F0 /* RLYAdvertisingNameCommandTests.m in Sources */,
+				43B0CC261BBD5BDA0003F4F0 /* RLYPeripheralCharacteristicsTests.m in Sources */,
+				43CF79981BFBDE23007145B7 /* RLYVibrationTests.m in Sources */,
+				433A66BC1BFE3C6E00E80DAF /* RLYFunctionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378B4AA1B56BDAA00B175DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431C11A31BD7F8650081CB04 /* RLYPeripheralEnumerations.m in Sources */,
+				4378B4C91B56BE0600B175DE /* RLYANCSNotification.m in Sources */,
+				4378B4CA1B56BE0600B175DE /* RLYPeripheral.m in Sources */,
+				435A2C3E1C20A23C00DB2858 /* RLYKeyframeCommand.m in Sources */,
+				4378B4CB1B56BE0600B175DE /* RLYCentral.m in Sources */,
+				437578601CBD3B3100243662 /* RLYPeripheralBatteryCharacteristics.m in Sources */,
+				437578661CBD3C1800243662 /* RLYPeripheralLoggingCharacteristics.m in Sources */,
+				435A2C311C209B7D00DB2858 /* RLYColorKeyframe.m in Sources */,
+				43E5001F1BDA7D7600C7D7CB /* RLYConnectionLEDResponseCommand.m in Sources */,
+				43A094901C600AAA00159B70 /* RLYColorBehavior.m in Sources */,
+				436C96B41BBC63B2005A9EB0 /* RLYClearContactSettingsCommand.m in Sources */,
+				4378B4CC1B56BE0600B175DE /* RLYUUID.m in Sources */,
+				43B607481BBC48B400D9B638 /* RLYTapParametersCommand.m in Sources */,
+				4321D5B01BAB3E25000C4A68 /* RLYLogFunction.m in Sources */,
+				435A2C301C209B7900DB2858 /* RLYVibrationKeyframe.m in Sources */,
+				436C96AB1BBC60FB005A9EB0 /* RLYContactSettingsCommand.m in Sources */,
+				43E0790E1CD14B540083FA36 /* RLYRecoveryPeripheral.m in Sources */,
+				43B607181BBC48B400D9B638 /* RLYCommand.m in Sources */,
+				437578541CBD3A2B00243662 /* RLYPeripheralRinglyCharacteristics.m in Sources */,
+				43FEB5A21CF64915006614CC /* RLYSettingsCommandMode.m in Sources */,
+				4391B8621C9236D9003A8826 /* RLYCentralDiscovery.m in Sources */,
+				43B6071C1BBC48B400D9B638 /* RLYConnectionLEDCommand.m in Sources */,
+				439C202F1D9C45ED00E333A2 /* RLYKnownHardwareVersion.m in Sources */,
+				43B607301BBC48B400D9B638 /* RLYFirmwareResetCommand.m in Sources */,
+				438ABE631BCEA8440039FE39 /* RLYContactsModeCommand.m in Sources */,
+				435A2C221C1F20A400DB2858 /* RLYNoActionCommand.m in Sources */,
+				43B607201BBC48B400D9B638 /* RLYDateTimeCommand.m in Sources */,
+				433F9AF81BE1244B000E9910 /* RLYANCSV2Parser.m in Sources */,
+				43B606E71BBC383600D9B638 /* RLYANCSV1Parser.m in Sources */,
+				43B607281BBC48B400D9B638 /* RLYDFUCommand.m in Sources */,
+				437578721CBD400100243662 /* RLYPeripheralActivityCharacteristics.m in Sources */,
+				43B607341BBC48B400D9B638 /* RLYColorVibrationCommand.m in Sources */,
+				437578821CBD69CE00243662 /* RLYActivityTrackingDate.m in Sources */,
+				43B607141BBC48B400D9B638 /* RLYClearBondsCommand.m in Sources */,
+				4375787C1CBD69B400243662 /* RLYActivityTrackingUpdate.m in Sources */,
+				43CF79961BFBDC4C007145B7 /* RLYErrorFunctions.m in Sources */,
+				43B607381BBC48B400D9B638 /* RLYLoggingQueryCommand.m in Sources */,
+				43B6074E1BBC4BC200D9B638 /* RLYApplicationSettingsCommand.m in Sources */,
+				43B606D31BBC245100D9B638 /* RLYPeripheralServices.m in Sources */,
+				435FECB51BE28795001746E1 /* RLYANCSNotificationFlags.m in Sources */,
+				43B6070E1BBC48B400D9B638 /* RLYAdvertisingNameCommand.m in Sources */,
+				437CF0B71BFF805800B9E9B8 /* RLYColor.m in Sources */,
+				43B607541BBC527500D9B638 /* RLYClearApplicationSettingsCommand.m in Sources */,
+				43B6072C1BBC48B400D9B638 /* RLYDisconnectVibrationCommand.m in Sources */,
+				43B607441BBC48B400D9B638 /* RLYSleepModeCommand.m in Sources */,
+				43A094961C600AE800159B70 /* RLYVibrationBehavior.m in Sources */,
+				4375785A1CBD3AA100243662 /* RLYPeripheralDeviceInformationCharacteristics.m in Sources */,
+				4378B4DC1B56BE0600B175DE /* RLYFunctions.m in Sources */,
+				4378B4DE1B56BE0600B175DE /* RLYObservers.m in Sources */,
+				4346EFE31BDA6BC90066CD46 /* RLYANCSTimeoutAlertCommand.m in Sources */,
+				43B607241BBC48B400D9B638 /* RLYDeepSleepCommand.m in Sources */,
+				437CF0BD1BFF811A00B9E9B8 /* RLYVibration.m in Sources */,
+				43B6073C1BBC48B400D9B638 /* RLYMobileOSCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4378B4B51B56BDAA00B175DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435FECAD1BE15FB6001746E1 /* RLYANCSV1ParserTests.m in Sources */,
+				4375788C1CBD7DCC00243662 /* RLYActivityTrackingDateTests.m in Sources */,
+				43D251321BF3E22A0022E4FD /* RLYDataStringFunctionsTests.m in Sources */,
+				433F9AFC1BE12A0C000E9910 /* RLYANCSV2ParserTests.m in Sources */,
+				43E500221BDA7DDF00C7D7CB /* RLYConnectionLEDResponseCommandTests.m in Sources */,
+				431C119F1BD7EAD70081CB04 /* RLYStringFittingTests.m in Sources */,
+				435A2C251C1F21A200DB2858 /* RLYNoActionCommandTests.m in Sources */,
+				4378B4C81B56BDC400B175DE /* RLYApplicationSettingsCommandTests.m in Sources */,
+				43B6641B1BCEA9F100C4C2F4 /* RLYContactsModeCommandTests.m in Sources */,
+				43E500191BDA7AD400C7D7CB /* RLYANCSTimeoutAlertCommandTests.m in Sources */,
+				4375789B1CBE7BCA00243662 /* RLYActivityTrackingUpdateTests.m in Sources */,
+				436C96AE1BBC6216005A9EB0 /* RLYContactsSettingsCommandTests.m in Sources */,
+				43CF799C1BFBDF86007145B7 /* RLYObserversTests.m in Sources */,
+				43B0CC241BBD5AE30003F4F0 /* RLYAdvertisingNameCommandTests.m in Sources */,
+				43B0CC271BBD5BDA0003F4F0 /* RLYPeripheralCharacteristicsTests.m in Sources */,
+				43CF79991BFBDE23007145B7 /* RLYVibrationTests.m in Sources */,
+				433A66BD1BFE3C6E00E80DAF /* RLYFunctionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4378B43F1B56BB8E00B175DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4378B4301B56BB8E00B175DE /* RinglyKit */;
+			targetProxy = 4378B43E1B56BB8E00B175DE /* PBXContainerItemProxy */;
+		};
+		4378B4BC1B56BDAA00B175DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4378B4AE1B56BDAA00B175DE /* RinglyKit-Mac */;
+			targetProxy = 4378B4BB1B56BDAA00B175DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4378B4451B56BB8E00B175DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4378B4461B56BB8E00B175DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4378B4481B56BB8E00B175DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P97VTTKZ62;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RinglyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ringly.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4378B4491B56BB8E00B175DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P97VTTKZ62;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RinglyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ringly.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4378B44B1B56BB8E00B175DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RinglyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ringly.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4378B44C1B56BB8E00B175DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RinglyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ringly.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4378B4C31B56BDAA00B175DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/RinglyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ringly.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RinglyKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4378B4C41B56BDAA00B175DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/RinglyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ringly.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RinglyKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4378B4C61B56BDAA00B175DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RinglyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ringly.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4378B4C71B56BDAA00B175DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RinglyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ringly.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4378B42B1B56BB8E00B175DE /* Build configuration list for PBXProject "RinglyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4378B4451B56BB8E00B175DE /* Debug */,
+				4378B4461B56BB8E00B175DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4378B4471B56BB8E00B175DE /* Build configuration list for PBXNativeTarget "RinglyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4378B4481B56BB8E00B175DE /* Debug */,
+				4378B4491B56BB8E00B175DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4378B44A1B56BB8E00B175DE /* Build configuration list for PBXNativeTarget "RinglyKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4378B44B1B56BB8E00B175DE /* Debug */,
+				4378B44C1B56BB8E00B175DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4378B4C21B56BDAA00B175DE /* Build configuration list for PBXNativeTarget "RinglyKit-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4378B4C31B56BDAA00B175DE /* Debug */,
+				4378B4C41B56BDAA00B175DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4378B4C51B56BDAA00B175DE /* Build configuration list for PBXNativeTarget "RinglyKit-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4378B4C61B56BDAA00B175DE /* Debug */,
+				4378B4C71B56BDAA00B175DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4378B4281B56BB8E00B175DE /* Project object */;
+}

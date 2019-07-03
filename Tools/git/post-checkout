@@ -1,0 +1,19 @@
+#!/bin/bash
+
+PREVIOUS_HEAD=$1
+NEW_HEAD=$2
+
+if [ $PREVIOUS_HEAD != $NEW_HEAD ]; then
+    cd ./$(git rev-parse --show-cdup)
+    
+    CHANGED=`git diff $PREVIOUS_HEAD $NEW_HEAD --name-status | grep "Cartfile.resolved" | wc -l | tr -d '[[:space:]]'`
+    
+    if [ $CHANGED -ne "0" ]; then
+        echo ""
+        echo "Cartfile.resolved has changed - it's probably necessary to run:"
+        echo "    carthage bootstrap --platform ios"
+        echo "  or"
+        echo "    ./tools/bootstrap"
+        echo "again!"
+    fi
+fi

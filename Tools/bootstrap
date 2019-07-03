@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+set -e
+set -u
+
+cd "$(dirname "$0")/.."
+
+# install git hooks
+echo -e "Installing Git hooks"
+ln -sf "../../Tools/git/pre-commit" ".git/hooks/pre-commit"
+ln -sf "../../Tools/git/post-checkout" ".git/hooks/post-checkout"
+
+# git submodules setup
+echo -e "Updating Git Submodules"
+git submodule update --init
+
+# initialize carthage frameworks
+if ! cmp -s Cartfile.resolved Carthage/Cartfile.resolved; then
+    echo -e "\nCarthage frameworks differ:"
+    echo "`diff Cartfile.resolved Carthage/Cartfile.resolved`"
+    rm -rf "Carthage/Build"
+
+    echo -e "\nBootstrapping Carthage Frameworks"
+    carthage bootstrap --no-use-binaries --platform ios
+    
+    cp Cartfile.resolved Carthage
+else
+    echo -e "\nNo need to bootstrap Carthage frameworks, versions match"
+fi

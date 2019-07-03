@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:www.ringly.com</string>
+		<string>applinks:ringly.com</string>
+		<string>applinks:ringly-web-staging.elasticbeanstalk.com</string>
+		<string>applinks:app.ringly.com</string>
+		<string>applinks:explore.ringly.com</string>
+		<string>applinks:site.ringly.com</string>
+	</array>
+	<key>com.apple.developer.healthkit</key>
+	<true/>
+</dict>
+</plist>
